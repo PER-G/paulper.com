@@ -164,6 +164,23 @@
          ]
         },
         {
+         "type": "paragraph",
+         "attrs": {
+          "class": "highlight"
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Ein wichtiger Teil meines Lebens ist mein Sohn, der im November 2025 zur Welt kam.",
+           "marks": [
+            {
+             "type": "bold"
+            }
+           ]
+          }
+         ]
+        },
+        {
          "type": "toggle",
          "attrs": {
           "id": "2GzqU"

@@ -54,6 +54,11 @@ ACCENT_OVERRIDES = {
                         f'preload="auto" aria-label="Muscle-Up"></video><span class="accent-tag">Muscle-Up</span></div>'),
 }
 
+# Eigene Artikel (HTML in _source/extra), eingefügt nach der n-ten Karte einer Seite
+EXTRA_SECTIONS = {
+    "per-auto-fotografie": [(1, "zeekr.html")],
+}
+
 # Zusätzliche Inhalte am Kartenanfang: Karten-ID -> HTML
 CARD_PREPEND = {
     "l42un5a9sk12p84": (f'<div class="hero-portrait reveal"><img src="{PROFILE}" alt="Paul P.E.R." data-lightbox></div>'),
@@ -170,7 +175,8 @@ def render(n):
         return "<br>"
     if t == "paragraph":
         inner = inline(n)
-        return f'<p{align_style(a)}>{inner}</p>' if inner else '<p class="empty"></p>'
+        cls = f' class="{esc(a["class"])}"' if a.get("class") else ""
+        return f'<p{cls}{align_style(a)}>{inner}</p>' if inner else '<p class="empty"></p>'
     if t == "heading":
         lvl = a.get("level", 2)
         return f'<h{lvl} class="h{lvl}"{align_style(a)}>{inline(n)}</h{lvl}>'
@@ -384,6 +390,13 @@ def page_html(doc_id, slug, data, meta):
     cards = "".join(render_card(c) for c in visible)
     # Überzeile vor die erste Überschrift der Seite setzen
     cards = cards.replace('<h1 class="h1"', f'<div class="eyebrow">{esc(eyebrow)}</div><h1 class="h1 hero-title"', 1)
+    for pos, fname in EXTRA_SECTIONS.get(slug, []):
+        extra = open(os.path.join(SRC, "extra", fname), encoding="utf8").read()
+        # nach der pos-ten Karte einfügen
+        idx = 0
+        for _ in range(pos):
+            idx = cards.index("</section>", idx) + len("</section>")
+        cards = cards[:idx] + extra + cards[idx:]
     current = "/" + slug + "/" if slug else "/"
     title = esc(meta["title"])
     desc = esc((meta.get("description") or "").split("\n")[0])
