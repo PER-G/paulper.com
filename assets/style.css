@@ -33,7 +33,6 @@
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; background: #000; }
 body {
   margin: 0;
-  background: #000;
   color: var(--body);
   font-family: var(--font);
   font-size: var(--fs);
@@ -46,8 +45,8 @@ body {
 .page-bg {
   position: fixed; inset: 0; z-index: -1;
   background:
-    radial-gradient(120% 80% at 50% 0%, rgba(41, 151, 255, .10), transparent 60%),
-    linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .72)),
+    radial-gradient(120% 80% at 50% 0%, rgba(41, 151, 255, .08), transparent 60%),
+    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)),
     var(--page-bg) center / cover no-repeat;
 }
 img, video { max-width: 100%; display: block; }
