@@ -49,8 +49,6 @@ MUSCLE_UP = "/assets/media/muscle-up.mp4"
 
 # Eigene Medien statt Gamma-Bildern: Karten-ID -> Akzent-HTML
 ACCENT_OVERRIDES = {
-    # Über mich – erste Karte: Profilbild
-    "yb5cmuodll2co6g": f'<div class="accent accent-portrait reveal"><img src="{PROFILE}" alt="Paul P.E.R." data-lightbox></div>',
     # Über mich – Kraftsport: Muscle-Up-Video
     "exx5t94m54qu3pl": (f'<div class="accent accent-video reveal"><video src="{MUSCLE_UP}" autoplay loop muted playsinline '
                         f'preload="auto" aria-label="Muscle-Up"></video><span class="accent-tag">Muscle-Up</span></div>'),
