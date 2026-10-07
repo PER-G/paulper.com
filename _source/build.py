@@ -45,6 +45,9 @@ PAGE_KEYS = {
 }
 
 PROFILE = "/assets/media/profil.jpg"
+
+# Umbenennungen von Menüpunkten, Buttons und Seitentiteln
+RENAME = {"Auto Fotografie": "Auto & Technik", "PER - Auto Fotografie": "PER - Auto & Technik"}
 MUSCLE_UP = "/assets/media/muscle-up.mp4"
 
 # Eigene Medien statt Gamma-Bildern: Karten-ID -> Akzent-HTML
@@ -235,6 +238,9 @@ def render(n):
 
 def button(n):
     a = n.get("attrs") or {}
+    label = "".join(x.get("text", "") for x in n.get("content") or [])
+    if label in RENAME:
+        n = dict(n, content=[{"type": "text", "text": RENAME[label]}])
     href = map_href(a.get("href"))
     variant = a.get("variant") or "solid"
     color = a.get("color") or THEME["theme"]["accentColor"]
@@ -369,6 +375,7 @@ def render_nav(current):
         for b in grp.get("content") or []:
             href = map_href(b["attrs"].get("href"))
             text = "".join(x.get("text", "") for x in b.get("content") or [])
+            text = RENAME.get(text, text)
             active = ' aria-current="page"' if href == current else ""
             if grp["type"] == "navbarLinks":
                 links.append(f'<a class="nav-link" href="{esc(href)}"{active}>{esc(text)}</a>')
@@ -400,7 +407,7 @@ def page_html(doc_id, slug, data, meta):
             idx = cards.index("</section>", idx) + len("</section>")
         cards = cards[:idx] + extra + cards[idx:]
     current = "/" + slug + "/" if slug else "/"
-    title = esc(meta["title"])
+    title = esc(RENAME.get(meta["title"], meta["title"]))
     desc = esc((meta.get("description") or "").split("\n")[0])
     fmt = da.get("format", "webpage")
     return f"""<!doctype html>
