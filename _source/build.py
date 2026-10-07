@@ -31,6 +31,36 @@ PAGES = {
 }
 THEME = json.load(open(os.path.join(SRC, "theme.json"), encoding="utf8"))
 
+# Seitenkennung (für Übergangseffekte) und Überzeile je Seite
+PAGE_KEYS = {
+    "": ("start", "Willkommen"),
+    "per-fotografie": ("foto", "Fotografie"),
+    "per-entdecke-meine-reiseziele": ("reise", "Reiseziele"),
+    "per-auto-fotografie": ("auto", "Auto · Sport · Technik"),
+    "per-über-mich": ("ueber", "Über mich"),
+    "per-games": ("games", "Games"),
+    "per-impressum": ("impressum", "Rechtliches"),
+    "per-blog-und-kontakt": ("kontakt", "Blog & Kontakt"),
+    "404": ("start", "Fehler 404"),
+}
+
+PROFILE = "/assets/media/profil.jpg"
+MUSCLE_UP = "/assets/media/muscle-up.mp4"
+
+# Eigene Medien statt Gamma-Bildern: Karten-ID -> Akzent-HTML
+ACCENT_OVERRIDES = {
+    # Über mich – erste Karte: Profilbild
+    "yb5cmuodll2co6g": f'<div class="accent accent-portrait reveal"><img src="{PROFILE}" alt="Paul P.E.R." data-lightbox></div>',
+    # Über mich – Kraftsport: Muscle-Up-Video
+    "exx5t94m54qu3pl": (f'<div class="accent accent-video reveal"><video src="{MUSCLE_UP}" autoplay loop muted playsinline '
+                        f'preload="auto" aria-label="Muscle-Up"></video><span class="accent-tag">Muscle-Up</span></div>'),
+}
+
+# Zusätzliche Inhalte am Kartenanfang: Karten-ID -> HTML
+CARD_PREPEND = {
+    "l42un5a9sk12p84": (f'<div class="hero-portrait reveal"><img src="{PROFILE}" alt="Paul P.E.R." data-lightbox></div>'),
+}
+
 # ---------------------------------------------------------------- Bilder
 IMAGES = {}  # remote url -> lokaler Dateiname
 
@@ -313,14 +343,16 @@ def render_card(card):
                 f'<div class="card-inner"><img class="reveal" src="{img(image_card, 2400)}" alt="" data-lightbox></div></section>')
 
     accent_html = ""
-    if accent and layout in ("left", "right", "top"):
+    if a["id"] in ACCENT_OVERRIDES:
+        accent_html = ACCENT_OVERRIDES[a["id"]]
+    elif accent and layout in ("left", "right", "top"):
         accent_html = f'<div class="accent reveal"><img src="{img(accent, 1600)}" alt="" loading="lazy"></div>'
     elif accent and layout == "behind":
         styles.append(f"--behind:url('{img(accent, 2400)}')")
         classes.append("has-behind")
     return (f'<section id="{a["id"]}" class="{" ".join(classes)}" style="{";".join(styles)}">'
             f'<div class="card-inner">{accent_html if layout in ("left", "top") else ""}'
-            f'<div class="card-body">{body}</div>'
+            f'<div class="card-body">{CARD_PREPEND.get(a["id"], "")}{body}</div>'
             f'{accent_html if layout == "right" else ""}</div></section>')
 
 
@@ -339,7 +371,7 @@ def render_nav(current):
     # Gamma zeigt die Buttons in umgekehrter Reihenfolge (Kontakt vor Impressum)
     buttons.reverse()
     return ('<header class="nav"><div class="nav-inner">'
-            '<a class="nav-logo" href="/" aria-label="Startseite">PER</a>'
+            f'<a class="nav-brand" href="/" aria-label="Startseite"><img src="{PROFILE}" alt=""><span>Paul P.E.R.</span></a>'
             '<button class="nav-toggle" aria-label="Menü" aria-expanded="false"><span></span><span></span><span></span></button>'
             f'<nav class="nav-menu"><div class="nav-links">{"".join(links)}</div>'
             f'<div class="nav-buttons">{"".join(buttons)}</div></nav></div></header>')
@@ -349,7 +381,11 @@ def page_html(doc_id, slug, data, meta):
     doc = data["content"][0]
     da = doc["attrs"]
     bg = bg_image_src(da.get("background")) or THEME["theme"]["config"]["background"]["image"]["src"]
-    cards = "".join(render_card(c) for c in doc.get("content") or [] if not (c.get("attrs") or {}).get("hidden"))
+    key, eyebrow = PAGE_KEYS.get(slug, ("start", ""))
+    visible = [c for c in doc.get("content") or [] if not (c.get("attrs") or {}).get("hidden")]
+    cards = "".join(render_card(c) for c in visible)
+    # Überzeile vor die erste Überschrift der Seite setzen
+    cards = cards.replace('<h1 class="h1"', f'<div class="eyebrow">{esc(eyebrow)}</div><h1 class="h1 hero-title"', 1)
     current = "/" + slug + "/" if slug else "/"
     title = esc(meta["title"])
     desc = esc((meta.get("description") or "").split("\n")[0])
@@ -367,11 +403,11 @@ def page_html(doc_id, slug, data, meta):
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <link rel="stylesheet" href="/assets/style.css">
 </head>
-<body class="format-{fmt}" style="--page-bg:url('{img(bg, 2400)}')">
+<body class="format-{fmt}" data-page="{key}" style="--page-bg:url('{img(bg, 2400)}')">
 <div class="page-bg" aria-hidden="true"></div>
 {render_nav(current)}
 <main>
