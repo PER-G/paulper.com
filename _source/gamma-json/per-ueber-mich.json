@@ -1,0 +1,1939 @@
+{
+ "type": "doc",
+ "content": [
+  {
+   "type": "document",
+   "attrs": {
+    "aiOptions": {
+     "preserveLayouts": false,
+     "imageOptions": {
+      "stylePreset": "Photography",
+      "model": "flux-1-ultra",
+      "stylePrompt": "analog film photo. faded film, desaturated, 35mm photo, im Winter hell im Hintergrund schnell",
+      "artStylePreset": "photorealistic",
+      "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+      "modelAutoselect": false
+     }
+    },
+    "docId": "rjjff09ojainakz",
+    "background": {
+     "type": "image",
+     "image": {
+      "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "showPlaceholder": false,
+      "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "meta": {
+       "width": 960,
+       "height": 1440
+      },
+      "query": "modern german sports car and stadium with technology background, professional photography",
+      "source": "image.ai-generated",
+      "aiParams": {
+       "model": "flux-1-pro",
+       "steps": 30,
+       "width": 960,
+       "height": 1440,
+       "prompt": "modern german sports car and stadium with technology background, professional photography",
+       "stylePrompt": "Hell, ",
+       "interactionId": "_C56jhTTHmOrqdvLJX7Go",
+       "upscaleFactor": 1
+      },
+      "provider": "flux",
+      "savedMediaId": "ne9q04z8lihjr2h"
+     },
+     "source": "image.ai-generated"
+    },
+    "docFlags": {
+     "cardLayoutsEnabled": true
+    },
+    "format": "webpage",
+    "customCode": {},
+    "settings": {
+     "defaultFullBleed": "full",
+     "stylesDerivedFrom": "webpage_fluid",
+     "cardDimensions": "fluid",
+     "verticalAlign": "center",
+     "defaultContentWidth": "lg",
+     "fontSize": "md",
+     "scaleContentToFit": false,
+     "animationsEnabled": true
+    },
+    "generateStatus": "done",
+    "generateInfo": {
+     "interactionId": "2jtexfh91t5qms9",
+     "streamId": "q1vxh31oxywk87c",
+     "lastEventId": "19",
+     "lastCompletedCardId": "qvv7s5qwazmlt51",
+     "lastCompletedCardIndex": 18
+    }
+   },
+   "content": [
+    {
+     "type": "card",
+     "attrs": {
+      "id": "yb5cmuodll2co6g",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "right",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "gt-K3",
+        "itemId": "accent",
+        "background": {
+         "type": "image",
+         "image": {
+          "uploadStatus": 0,
+          "showPlaceholder": false,
+          "source": "image.custom",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/edited-images/ONTXyiH1ftcxBtvv.png",
+          "meta": {
+           "width": 3946,
+           "height": 4111,
+           "date_recorded": "2025/02/05 17:58:25",
+           "date_file_created": "2025/02/05 17:58:25",
+           "date_file_modified": "2025/02/13 10:11:43 GMT",
+           "description": "                               ",
+           "aspect_ratio": 0.96,
+           "aperture": 1.8,
+           "exposure_compensation": 0,
+           "exposure_mode": "Auto",
+           "exposure_time": "1/160",
+           "flash": "Off, Did not fire",
+           "focal_length": "135.0 mm",
+           "f_number": 1.8,
+           "iso": 100,
+           "light_value": 9,
+           "metering_mode": "Multi-segment",
+           "shutter_speed": "1/160",
+           "white_balance": "Auto",
+           "device_name": "ILCE-9",
+           "device_vendor": "SONY",
+           "device_software": "Capture One Windows",
+           "orientation": "Horizontal (normal)",
+           "has_clipping_path": false,
+           "copyright": "Copyright Apple Inc., 2022",
+           "frame_count": 1,
+           "colorspace": "sRGB",
+           "has_transparency": true,
+           "average_color": "#a1a0a4",
+           "version_id": "aGaXtDlYO6DM__E86lRkrSefOQOpoQBi"
+          },
+          "name": "IMG_9204.jpeg",
+          "uploadResultStep": "optimized"
+         },
+         "mask": {
+          "effect": "faded"
+         },
+         "source": "image.custom"
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Über mich: Wer ich bin und was mich antreibt"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Mit Begeisterung verbinde ich meine vielfältigen Leidenschaften: Als Qualitätsexperte strebe ich nach Perfektion, als Kraftsportler nach persönlicher Entwicklung, als Fotograf nach dem perfekten Moment und als Reisender nach neuen Horizonten. Diese einzigartige Kombination prägt meinen Blick auf die Welt und treibt mich jeden Tag aufs Neue an."
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "2GzqU"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Qualität als Lebensphilosophie"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Als Six Sigma Black Belt und Qualitätsmanager liegt mir höchste Präzision und kontinuierliche Verbesserung im Blut. Diese Denkweise prägt nicht nur meinen Beruf, sondern alle Bereiche meines Lebens."
+            }
+           ]
+          },
+          {
+           "type": "buttonGroup",
+           "content": [
+            {
+             "type": "button",
+             "attrs": {
+              "href": "https://gamma.app/docs/rjjff09ojainakz#card-n82z5ns1t684f70",
+              "variant": "solid"
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Mehr Dazu"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "S1165"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Kraftsport und Fitness"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Im Kraftsport finde ich den perfekten Ausgleich und die Möglichkeit, meine Grenzen stetig zu erweitern. Disziplin, Ausdauer und der Wille zur Verbesserung sind hier meine ständigen Begleiter."
+            }
+           ]
+          },
+          {
+           "type": "buttonGroup",
+           "content": [
+            {
+             "type": "button",
+             "attrs": {
+              "href": "https://gamma.app/docs/rjjff09ojainakz#card-exx5t94m54qu3pl",
+              "variant": "outline"
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Mehr Dazu"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "lCsmt"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Reisen und Weltentdeckung"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Von den Savannen Afrikas bis zu den Metropolen Asiens - das Reisen öffnet mir neue Perspektiven und bietet unendliche Möglichkeiten für fotografische Abenteuer."
+            }
+           ]
+          },
+          {
+           "type": "buttonGroup",
+           "content": [
+            {
+             "type": "button",
+             "attrs": {
+              "href": "https://gamma.app/docs/PER-Entdecke-meine-Reiseziele-svy15y2uovglolr",
+              "variant": "outline"
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Mehr dazu"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "g2MFw"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Fotografie als Kunstform"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Die Fotografie ist meine kreative Ausdrucksform, bei der ich technische Präzision mit künstlerischer Vision verbinde. Ob Wildtiere, Landschaften oder automobile Schönheiten - ich fange die besonderen Momente des Lebens ein."
+            }
+           ]
+          },
+          {
+           "type": "buttonGroup",
+           "content": [
+            {
+             "type": "button",
+             "attrs": {
+              "href": "https://gamma.app/docs/PER-Fotografie-0bdmzbbw1eqjh2q",
+              "variant": "solid"
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Mehr Dazu"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "n82z5ns1t684f70",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "left",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "8v5hf",
+        "itemId": "accent",
+        "background": {
+         "type": "image",
+         "image": {
+          "loadImageParams": {
+           "provider": "aiGenerated",
+           "query": "quality control inspection of precision manufacturing, close-up of hands with white gloves inspecting a high-tech component, clean room environment, dramatic lighting, professional industrial photography",
+           "options": {
+            "stylePrompt": "Hell, ",
+            "aspectRatio": "portrait"
+           }
+          },
+          "loadImageStatus": "done",
+          "loadImageId": "EXwMs",
+          "source": "image.ai-generated",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/aP575uc-crG6aF7QLuNNV.jpg",
+          "meta": {
+           "width": 960,
+           "height": 1440
+          },
+          "query": "quality control inspection of precision manufacturing, close-up of hands with white gloves inspecting a high-tech component, clean room environment, dramatic lighting, professional industrial photography",
+          "aiParams": {
+           "model": "flux-1-pro",
+           "steps": 30,
+           "width": 960,
+           "height": 1440,
+           "prompt": "quality control inspection of precision manufacturing, close-up of hands with white gloves inspecting a high-tech component, clean room environment, dramatic lighting, professional industrial photography",
+           "stylePrompt": "Hell, ",
+           "interactionId": "j_UE7el_QgbJ4IgSDaa3p",
+           "upscaleFactor": 1
+          },
+          "provider": "flux",
+          "savedMediaId": "c3cmj86gmc0kpy5",
+          "tempUrl": null,
+          "uploadStatus": 3
+         },
+         "mask": {
+          "effect": "faded"
+         }
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Qualitätswesen: Faszination der Innovation und der höchsten Qualität"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Qualitätsmanagement und Six Sigma sind meine Leidenschaft! Als Qualitätsexperte begeistere ich mich für höchste Standards in allen Lebensbereichen - von der Fotografie über Unterhaltungselektronik bis hin zu Automobilen und Haushaltsgeräten. Diese Begeisterung für Perfektion prägt meinen Blick auf die Welt."
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "arrows",
+          "options": {
+           "cellSize": 10,
+           "orientation": "vertical",
+           "horizontalAlign": "right"
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "HvMH9",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Qualitätsstandards"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Höchste Präzision in allen Details."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "ut8MT",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Six Sigma"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Kontinuierliche Verbesserung leben."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "m5-IE",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Produktqualität"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Vom Beruf, in die Kamera bis zum Haus und Auto."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "yd3ldj7xk922qxx",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Medizintechnik: Meine berufliche Expertise"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Seit über 12 Jahren widme ich mich mit Leidenschaft der Medizintechnik-Branche, wo Präzision und Qualität Leben retten."
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "timeline",
+          "options": {
+           "orientation": "vertical",
+           "twoSided": true,
+           "numbered": true,
+           "hasLine": true
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "UB2Og",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "ECMO Oxygenatoren"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Aktuell arbeite ich in Hechingen an der Prozess-Entwicklung und Qualitätssicherung von ECMO-Oxygenatoren, die bei der extrakorporalen Membranoxygenierung zum Einsatz kommen."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "DS5EQ",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Stent-Herstellung"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Meine Expertise umfasst die Qualitätssicherung in der Produktion von Stents, die in der minimal-invasiven Gefäßchirurgie eingesetzt werden."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "Pw7W3",
+            "options": {}
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Polyaxialschrauben"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Intensive Erfahrungen sammelte ich in der Entwicklung und Qualitätssicherung von Polyaxialschrauben, die in der Wirbelsäulenchirurgie für stabilisierende Eingriffe verwendet werden."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "exx5t94m54qu3pl",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "right",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "CO2_I",
+        "itemId": "accent",
+        "background": {
+         "type": "image",
+         "image": {
+          "loadImageParams": {
+           "provider": "aiGenerated",
+           "query": "modern fitness gym with weight equipment and natural lighting, professional atmosphere",
+           "options": {
+            "stylePrompt": "Hell, ",
+            "aspectRatio": "portrait"
+           }
+          },
+          "loadImageStatus": "done",
+          "loadImageId": "mBS2w",
+          "source": "image.ai-generated",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/FYnJ-rJtuO-JFRCMQ4_dW.png",
+          "meta": {
+           "width": 1344,
+           "height": 1792
+          },
+          "query": "modern fitness gym with weight equipment and natural lighting, professional atmosphere",
+          "aiParams": {
+           "model": "imagen-3-pro",
+           "steps": 30,
+           "width": 1344,
+           "height": 1792,
+           "prompt": "modern fitness gym with weight equipment and natural lighting, professional atmosphere",
+           "stylePrompt": "Hell, ",
+           "interactionId": "GozS1QojI8HSx2cuoaglO",
+           "upscaleFactor": 1
+          },
+          "provider": "google",
+          "savedMediaId": "k6cupfomlubdja0",
+          "providerRegion": "us-central1",
+          "tempUrl": null,
+          "uploadStatus": 3
+         },
+         "mask": {
+          "effect": "faded"
+         }
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine Devise: Mit Kraftsport zu mehr Lebensqualität"
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "iconsText",
+          "options": {
+           "cellSize": 10
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "OkHtw",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "fontawesome",
+              "query": "dumbbell",
+              "options": {
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "GXouE",
+             "source": "image.icon",
+             "src": "https://cdn.gamma.app/_app_static/icons/v0/dumbbell.svg",
+             "tempUrl": "",
+             "meta": {
+              "height": 512,
+              "width": 640
+             },
+             "query": "dumbbell",
+             "uploadStatus": 3
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Gesundheitliche Vorteile"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Krafttraining ist wissenschaftlich nachweislich einer der effektivsten Wege, die Lebensqualität zu verbessern. Studien der Harvard Medical School zeigen: Stärkung der Muskulatur, Optimierung des Stoffwechsels und Reduzierung altersbedingter Erkrankungen."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "jlNSa",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "fontawesome",
+              "query": "bone",
+              "options": {
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "7uD-N",
+             "source": "image.icon",
+             "src": "https://cdn.gamma.app/_app_static/icons/v0/bone.svg",
+             "tempUrl": "",
+             "meta": {
+              "height": 512,
+              "width": 576
+             },
+             "query": "bone",
+             "uploadStatus": 3
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Präventive Wirkung"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Laut dem Journal of Bone and Mineral Research reduziert Kraftsport das Osteoporose-Risiko um bis zu 40%. Zusätzlich verbessert es die kognitive Leistungsfähigkeit und unterstützt die mentale Gesundheit durch Endorphin-Ausschüttung."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "-jyCD",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "fontawesome",
+              "query": "heart-pulse",
+              "options": {
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "SF0zP",
+             "source": "image.icon",
+             "src": "https://cdn.gamma.app/_app_static/icons/v0/heart-pulse.svg",
+             "tempUrl": "",
+             "meta": {
+              "height": 512,
+              "width": 512
+             },
+             "query": "heart-pulse",
+             "uploadStatus": 3
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Lebenslange Fitness"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Das American Journal of Sports Medicine bestätigt: Regelmäßiges Krafttraining erhöht die funktionale Unabhängigkeit im Alter und verbessert die Körperhaltung - ein unverzichtbarer Baustein für ein aktives Leben."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine persönliche Erfahrung bestätigt diese wissenschaftlichen Erkenntnisse. Kraftsport ist für mich nicht nur Training, sondern eine Investition in meine Gesundheit und Lebensqualität. Mit einem strukturierten Trainingsplan und der richtigen Technik kann jeder von den vielfältigen Vorteilen des Kraftsports profitieren."
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "o9iu08wgaiv5itb",
+      "background": {
+       "type": "none"
+      },
+      "container": {
+       "background": {
+        "type": "color",
+        "color": {
+         "hex": "#000000"
+        }
+       }
+      },
+      "cardSize": "default",
+      "layout": "behind",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "yWFaG",
+        "itemId": "accent",
+        "fitType": "fill",
+        "background": {
+         "type": "image",
+         "image": {
+          "id": "q0_PL",
+          "horizontalAlign": null,
+          "savedMediaId": "fxsfuwf4rtw1n7q",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/f5pHWBKBJw20ujlSrbCms.jpg",
+          "tempUrl": null,
+          "uploadStatus": 3,
+          "meta": {
+           "width": 1440,
+           "height": 960
+          },
+          "providerMeta": null,
+          "aiParams": {
+           "model": "flux-1-pro",
+           "steps": 30,
+           "width": 1440,
+           "height": 960,
+           "prompt": "collection of professional camera equipment, including cameras, lenses, and accessories, neatly arranged, studio lighting",
+           "stylePreset": "Custom",
+           "stylePrompt": "Hell, ",
+           "interactionId": "2jtexfh91t5qms9",
+           "upscaleFactor": 1
+          },
+          "loadImageParams": {
+           "provider": "aiGenerated",
+           "query": "collection of professional camera equipment, including cameras, lenses, and accessories, neatly arranged, studio lighting",
+           "options": {
+            "model": "flux-1-pro",
+            "stylePreset": "Custom",
+            "stylePrompt": "Hell, ",
+            "aspectRatio": "landscape"
+           }
+          },
+          "loadImageStatus": "done",
+          "loadImageId": "rOvji",
+          "name": null,
+          "query": "collection of professional camera equipment, including cameras, lenses, and accessories, neatly arranged, studio lighting",
+          "source": "image.ai-generated",
+          "showPlaceholder": null,
+          "fullWidthBlock": false,
+          "resize": {
+           "clipType": null,
+           "clipPath": null,
+           "clipAspectRatio": null,
+           "width": null
+          },
+          "clickBehavior": null,
+          "href": null,
+          "provider": "flux"
+         },
+         "source": "image.ai-generated",
+         "mask": {
+          "effect": "faded"
+         }
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine Ausrüstung: Kameras, Objektive & Co."
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Das richtige Werkzeug! Entdecke meine Ausrüstung und erfahre, warum ich auf diese Kameras, Objektive und Zubehör setze."
+          }
+         ]
+        },
+        {
+         "type": "table",
+         "attrs": {
+          "colWidths": [
+           33.34,
+           33.33,
+           33.33
+          ],
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "tableRow",
+           "content": [
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Kameras"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Objektive"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Smartphone"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "tableRow",
+           "content": [
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Sony Alpha 7 VI"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Sony FE 20-70mm f/4.0"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "iphone 14 Pro Max"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "tableRow",
+           "content": [
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Nikon P1000"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph",
+               "content": [
+                {
+                 "type": "text",
+                 "text": "Sony 150-600mm"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "tableCell",
+             "attrs": {
+              "colspan": 1,
+              "rowspan": 1
+             },
+             "content": [
+              {
+               "type": "paragraph"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 4
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine Empfehlung: Sony Alpha 7 VI"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Die Sony Alpha 7 IV ist meine absolute Empfehlung für ambitionierte Fotografen. Mit ihrem 33 Megapixel Vollformat-Sensor liefert sie beeindruckende Bildqualität und außergewöhnliche Detailschärfe. Besonders begeistert bin ich von:"
+          }
+         ]
+        },
+        {
+         "type": "bullet",
+         "attrs": {
+          "indent": 0
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Hervorragende Autofokus-Leistung mit KI-gestützter Motiverkennung"
+          }
+         ]
+        },
+        {
+         "type": "bullet",
+         "attrs": {
+          "indent": 0
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "10 Bilder pro Sekunde im Serienbildmodus"
+          }
+         ]
+        },
+        {
+         "type": "bullet",
+         "attrs": {
+          "indent": 0
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Professionelle 4K-Videoaufnahmen mit bis zu 60p"
+          }
+         ]
+        },
+        {
+         "type": "bullet",
+         "attrs": {
+          "indent": 0
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Robustes, witterungsgeschütztes Gehäuse"
+          }
+         ]
+        },
+        {
+         "type": "bullet",
+         "attrs": {
+          "indent": 0
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Drahtlose Übertragung und Fernsteuerung via WLAN"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Durch die intuitive Bedienung und die vielseitigen Funktionen ist sie sowohl für Foto- als auch Videoaufnahmen perfekt geeignet. Die Bildqualität bei hohen ISO-Werten ist beeindruckend, was besonders bei schlechten Lichtverhältnissen von Vorteil ist."
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "6k5qddugu91ffih",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Architektur & Hausumbau: Meine Projekte"
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "imagesText",
+          "options": {
+           "imageShape": "landscape",
+           "cellSize": 20
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "aq_bB",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "3D rendering of a modern double garage, architectural visualization, detailed, realistic lighting",
+              "options": {
+               "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "hnkUL",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/bac489d1dcd84f67ae525225eecb7c15/original/IMG_0297.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2021/08/20 14:35:12",
+              "date_file_created": "2021/08/20 14:35:12",
+              "date_file_modified": "2025/02/18 14:48:42 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 2.4,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/122",
+              "flash": "Off, Did not fire",
+              "focal_length": "1.5 mm",
+              "f_number": 2.4,
+              "iso": 25,
+              "light_value": 11.5,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/122",
+              "white_balance": "Auto",
+              "device_name": "iPhone 12 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "14.7.1",
+              "latitude": 48.507175,
+              "longitude": 9.07230555555556,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#71795c",
+              "version_id": "uATKS1dzVxj3MMOMjkq57HbTJyEXzdyw"
+             },
+             "query": "3D rendering of a modern double garage, architectural visualization, detailed, realistic lighting",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "3D rendering of a modern double garage, architectural visualization, detailed, realistic lighting",
+              "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+              "interactionId": "_QvnVV1cNl40bLY3DJI90",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "4y7wg0193pkw6ah",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_0297.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Vorherige Terrasse mit Treppe am Hang und Hauseingang"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "HUNiB",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "new modern double garage exterior, completed construction, daylight, sleek design",
+              "options": {
+               "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "zURTB",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/e7284414847f43ab811b19178d61edea/original/IMG_6762.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2021/01/23 10:47:42",
+              "date_file_created": "2021/01/23 10:47:42",
+              "date_file_modified": "2025/02/18 14:50:49 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 1.8,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/251",
+              "flash": "Off, Did not fire",
+              "focal_length": "4.0 mm",
+              "f_number": 1.8,
+              "iso": 20,
+              "light_value": 12,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/251",
+              "white_balance": "Auto",
+              "device_name": "iPhone X",
+              "device_vendor": "Apple",
+              "device_software": 14.3,
+              "latitude": 48.507075,
+              "longitude": 9.07224166666667,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#7a7978",
+              "version_id": "bQZfY_f4kGCjbaO_YylHS.6BipUNsZI8"
+             },
+             "query": "new modern double garage exterior, completed construction, daylight, sleek design",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "new modern double garage exterior, completed construction, daylight, sleek design",
+              "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+              "interactionId": "ZFS_kYRAu4Xk--MT1yqBT",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "cywgxlhfkqg8q6i",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_6762.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Vorherige Terrasse mit kleinem Esszimer  mit wenig Licht"
+              }
+             ]
+            },
+            {
+             "type": "paragraph"
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "S154f",
+            "options": {},
+            "image": {
+             "source": "image.custom",
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "tempUrl": null,
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/24e93e5bcf8948feac8e0ec2ad6bb131/original/IMG_9400.png",
+             "meta": {
+              "width": 1290,
+              "height": 2796,
+              "date_recorded": "2025/02/18 15:56:12",
+              "date_file_modified": "2025/02/18 14:56:44 GMT",
+              "aspect_ratio": 0.461,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "frame_count": 1,
+              "colorspace": "sRGB",
+              "has_transparency": false,
+              "average_color": "#7c8372",
+              "version_id": "0zAmJOaAVydeBd_CLzpUdfgAnsCmS9yT"
+             },
+             "name": "IMG_9400.png",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "3D Entwurf Garage mit Terrasse"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Die Garage mit meinen 3D Entwurf"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "U1tWH",
+            "options": {},
+            "image": {
+             "source": "image.custom",
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "tempUrl": null,
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/b7c7bc7d89be47ecb3a53fde67b2ad5e/original/IMG_9401.png",
+             "meta": {
+              "width": 1290,
+              "height": 2796,
+              "date_recorded": "2025/02/18 15:57:31",
+              "date_file_modified": "2025/02/18 14:57:56 GMT",
+              "aspect_ratio": 0.461,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "frame_count": 1,
+              "colorspace": "sRGB",
+              "has_transparency": false,
+              "average_color": "#86936d",
+              "version_id": "hrbkFha2VaGPG1fSozfjY_JHrdruMV.K"
+             },
+             "name": "IMG_9401.png",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "3D Entwurf Wintergarten mit Küche"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "3D Entwurf: Mein Wintergarten mit integrierter Küche. "
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "pPQ9p",
+            "options": {},
+            "image": {
+             "source": "image.custom",
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "tempUrl": null,
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/3a16a309c3e144d484aa3518d25d6e4b/original/IMG_4942.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2024/06/28 11:31:05",
+              "date_file_created": "2024/06/28 11:31:05",
+              "date_file_modified": "2025/02/18 14:59:10 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 2.2,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/2304",
+              "flash": "Off, Did not fire",
+              "focal_length": "2.2 mm",
+              "f_number": 2.2,
+              "iso": 50,
+              "light_value": 14.4,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/2304",
+              "white_balance": "Auto",
+              "device_name": "iPhone 14 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "17.5.1",
+              "latitude": 48.5071916666667,
+              "longitude": 9.07223611111111,
+              "orientation": "Rotate 180",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#768186",
+              "version_id": "F_ZqmpH7Gu2LTXGJx9dEY80WXnGsYSg8"
+             },
+             "name": "IMG_4942.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Fertigstellung Doppelgarage"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Die fertiggestellte Doppelgarage, umgesetzt nach meinen 3D-Plänen. Funktionalität trifft auf Design."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "t8QIR",
+            "options": {},
+            "image": {
+             "source": "image.custom",
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "tempUrl": null,
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/95b90c8a850f4959a4f3482b2451f264/original/IMG_8638.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2021/06/10 15:54:49",
+              "date_file_created": "2021/06/10 15:54:49",
+              "date_file_modified": "2025/02/18 15:03:40 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 2.4,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/121",
+              "flash": "Auto, Did not fire",
+              "focal_length": "1.5 mm",
+              "f_number": 2.4,
+              "iso": 320,
+              "light_value": 7.8,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/121",
+              "white_balance": "Auto",
+              "device_name": "iPhone 12 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "14.5.1",
+              "latitude": 48.5071361111111,
+              "longitude": 9.07223333333333,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#857f77",
+              "version_id": "Hin.sTrLlw3R8.nqMQW3zwbx5knSL7EZ"
+             },
+             "name": "IMG_8638.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Wintergarten mit Küche"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Mein fertiggestellter Wintergarten mit integrierter Küche. Mehr Lebensqualität durch Umbau."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

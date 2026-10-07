@@ -1,0 +1,376 @@
+{
+ "theme": {
+  "id": "borealis",
+  "workspaceId": null,
+  "name": "Borealis",
+  "headingFont": "Spline Sans",
+  "headingFontWeight": 700,
+  "bodyFont": "Barlow",
+  "bodyFontWeight": 400,
+  "accentColor": "#16FFBB",
+  "logoUrl": null,
+  "config": {
+   "fontSize": 1.125,
+   "keywords": {
+    "tone": [
+     "playful",
+     "friendly",
+     "casual",
+     "fun",
+     "bold",
+     "loud",
+     "modern",
+     "high tech",
+     "futuristic",
+     "young",
+     "fresh",
+     "creative"
+    ],
+    "color": [
+     "dark",
+     "navy",
+     "royal blue",
+     "turquoise",
+     "vibrant",
+     "neon",
+     "teal",
+     "green",
+     "blue",
+     "gradient",
+     "colorful",
+     "contrast",
+     "colorful"
+    ]
+   },
+   "bodyColor": "#E0E4E6",
+   "themeBase": "daydream",
+   "background": {
+    "type": "image",
+    "image": {
+     "src": "https://cdn.gamma.app/theme_images/standard/348ee66ae9594e87a504c5013f2fa936/original/borealis.jpg",
+     "meta": {
+      "width": 3600,
+      "height": 2400,
+      "colorspace": "sRGB",
+      "version_id": "_1jnT_HinRLsA0zt8Ld6RFv7dgWAP2h3",
+      "frame_count": 1,
+      "orientation": "Horizontal (normal)",
+      "aspect_ratio": 1.5,
+      "average_color": "#001c42",
+      "date_recorded": "2023/11/20 18:39:25",
+      "device_software": "Adobe Photoshop 24.6 (Macintosh)",
+      "has_transparency": false,
+      "date_file_created": "2023/11/20 18:39:25",
+      "has_clipping_path": false,
+      "date_file_modified": "2025/06/02 23:00:16 GMT"
+     },
+     "name": "borealis.jpg",
+     "source": "image.custom",
+     "uploadStatus": 0,
+     "showPlaceholder": false,
+     "uploadResultStep": "optimized"
+    },
+    "source": "image.custom"
+   },
+   "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+   "headingColor": "#F0FCFF",
+   "accentGradient": {
+    "colors": [
+     "#16FFBB",
+     "#29DDDA",
+     "#37A7E7"
+    ],
+    "disabled": true
+   },
+   "cardBackground": {
+    "type": "color",
+    "color": {
+     "hex": "#0A081B"
+    }
+   },
+   "headingGradient": {
+    "colors": [
+     "#F0FCFF",
+     "#29DDDA"
+    ],
+    "disabled": true
+   },
+   "secondaryAccentColors": [
+    "#29DDDA",
+    "#37A7E7",
+    "#091231"
+   ]
+  },
+  "priority": 90,
+  "previewUrl": "https://assets.api.gamma.app/themes/preview/v1/borealis/1e62f0e41c5a012e5b4d7745b79e8a7b16102d3d",
+  "archived": false,
+  "createdTime": "2024-01-30T02:18:31.843Z",
+  "updatedTime": "2025-06-02T23:03:23.834Z",
+  "fonts": [
+   {
+    "id": "Spline Sans",
+    "name": "Spline Sans",
+    "url": "https://fonts.googleapis.com/css2?family=Spline%20Sans:wght@300;400;500;600;700&display=swap"
+   },
+   {
+    "id": "Barlow",
+    "name": "Barlow",
+    "url": "https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+   }
+  ]
+ },
+ "nav": {
+  "type": "doc",
+  "content": [
+   {
+    "type": "navbar",
+    "attrs": {
+     "logo": null
+    },
+    "content": [
+     {
+      "type": "navbarLinks",
+      "attrs": {
+       "horizontalAlign": "right"
+      },
+      "content": [
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Fotografie-0bdmzbbw1eqjh2q",
+         "color": null,
+         "variant": "link"
+        },
+        "content": [
+         {
+          "text": "Fotografie",
+          "type": "text"
+         }
+        ]
+       },
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Entdecke-meine-Reiseziele-svy15y2uovglolr",
+         "color": null,
+         "variant": "link"
+        },
+        "content": [
+         {
+          "text": "Reiseziele & Fotografie",
+          "type": "text"
+         }
+        ]
+       },
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Auto-Fotografie-x87csbnik4byxsi",
+         "color": null,
+         "variant": "link"
+        },
+        "content": [
+         {
+          "text": "Auto Fotografie",
+          "type": "text"
+         }
+        ]
+       },
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Uber-mich-rjjff09ojainakz",
+         "color": null,
+         "variant": "link"
+        },
+        "content": [
+         {
+          "text": "Über Mich",
+          "type": "text"
+         }
+        ]
+       },
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Games-4br06l673gitil2",
+         "color": null,
+         "variant": "link"
+        },
+        "content": [
+         {
+          "text": "Games",
+          "type": "text"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "navbarButtons",
+      "content": [
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Impressum-alamgr9by2aifcg",
+         "color": null,
+         "variant": "solid"
+        },
+        "content": [
+         {
+          "text": "Impressum",
+          "type": "text"
+         }
+        ]
+       },
+       {
+        "type": "button",
+        "attrs": {
+         "href": "https://gamma.app/docs/PER-Blog-und-Kontakt-ci9i2gteu94g9jn",
+         "color": null,
+         "variant": "solid"
+        },
+        "content": [
+         {
+          "text": "Kontakt",
+          "type": "text"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "pages": [
+  {
+   "id": "4br06l673gitil2",
+   "title": "PER - Games",
+   "description": null,
+   "archived": false,
+   "path": "/per-games",
+   "offline": false,
+   "createdTime": "2026-02-18T14:55:57.142Z",
+   "updatedTime": "2026-03-07T10:37:38.829Z",
+   "editedTime": "2026-03-07T10:37:26.071Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/4br06l673gitil2/t02m7s95rgh2dgt/slide/Sg8rRK1LQf9urmfH5zmQcHcHnic",
+   "pageOrder": 64,
+   "currentSnapshotId": "iei52oo8ibe6a1h",
+   "publishedSnapshotId": "iei52oo8ibe6a1h",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "ci9i2gteu94g9jn",
+   "title": "PER - Blog und Kontakt",
+   "description": null,
+   "archived": false,
+   "path": "/per-blog-und-kontakt",
+   "offline": false,
+   "createdTime": "2026-02-09T15:22:50.149Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T15:23:48.477Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/ci9i2gteu94g9jn/8f8dy32wnk3g61t/slide/qxsKG1M6v7RXG-zhEw2IAiVGndI",
+   "pageOrder": 0,
+   "currentSnapshotId": "gcloqeg2arp9b4c",
+   "publishedSnapshotId": "gcloqeg2arp9b4c",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "0bdmzbbw1eqjh2q",
+   "title": "PER - Fotografie",
+   "description": null,
+   "archived": false,
+   "path": "/per-fotografie",
+   "offline": false,
+   "createdTime": "2026-02-09T15:15:09.198Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T15:19:26.531Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/0bdmzbbw1eqjh2q/d574dryydqyflpo/slide/ac2RUP5zs8CblopLPuPwOfj_Ml0",
+   "pageOrder": 0,
+   "currentSnapshotId": "bqmziaob7b7bzw0",
+   "publishedSnapshotId": "bqmziaob7b7bzw0",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "q1vxh31oxywk87c",
+   "title": "PER",
+   "description": null,
+   "archived": false,
+   "path": "/",
+   "offline": false,
+   "createdTime": "2025-02-12T20:51:09.426Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-18T15:20:51.711Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/q1vxh31oxywk87c/l42un5a9sk12p84/slide/nsh7rBR4HfU7fkW4KuASZUGH9GM",
+   "pageOrder": 0,
+   "currentSnapshotId": "wdma81736ndc4cz",
+   "publishedSnapshotId": "wdma81736ndc4cz",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "alamgr9by2aifcg",
+   "title": "PER - Impressum",
+   "description": null,
+   "archived": false,
+   "path": "/per-impressum",
+   "offline": false,
+   "createdTime": "2026-02-09T14:50:07.125Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T14:51:14.172Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/alamgr9by2aifcg/i05lu0gbfhzxl6z/slide/UfptHDNgbJky0hO8_Nl-Wg9SKik",
+   "pageOrder": 0,
+   "currentSnapshotId": "fgo5l7czpwxbddm",
+   "publishedSnapshotId": "fgo5l7czpwxbddm",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "rjjff09ojainakz",
+   "title": "PER - Über mich",
+   "description": null,
+   "archived": false,
+   "path": "/per-über-mich",
+   "offline": false,
+   "createdTime": "2026-02-09T14:47:07.679Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T15:38:09.279Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/rjjff09ojainakz/yb5cmuodll2co6g/slide/89KsMO8mHeHcNI1_PTMZ2FZx71E",
+   "pageOrder": 0,
+   "currentSnapshotId": "jy9cewrgfmnc1iw",
+   "publishedSnapshotId": "jy9cewrgfmnc1iw",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "svy15y2uovglolr",
+   "title": "PER - Entdecke meine Reiseziele",
+   "description": null,
+   "archived": false,
+   "path": "/per-entdecke-meine-reiseziele",
+   "offline": false,
+   "createdTime": "2026-02-09T14:41:44.296Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T15:37:04.080Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/svy15y2uovglolr/q7w3e9abi0q4t3l/slide/leatR9kWEkTSTVSdHdK2ZneF-Bk",
+   "pageOrder": 0,
+   "currentSnapshotId": "ufsd9oxw7g54l0t",
+   "publishedSnapshotId": "ufsd9oxw7g54l0t",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  },
+  {
+   "id": "x87csbnik4byxsi",
+   "title": "PER - Auto Fotografie",
+   "description": null,
+   "archived": false,
+   "path": "/per-auto-fotografie",
+   "offline": false,
+   "createdTime": "2026-02-09T15:15:52.154Z",
+   "updatedTime": "2026-03-07T10:37:28.081Z",
+   "editedTime": "2026-02-09T15:35:22.406Z",
+   "previewUrl": "https://assets.api.gamma.app/6w7p2qt1ecowoml/screenshots/x87csbnik4byxsi/tjsx2qqpi4drt7p/slide/_9KLvFGqP_kg1k6NSh1-mVNmVQQ",
+   "pageOrder": 0,
+   "currentSnapshotId": "xtww3y8ibm7ow4p",
+   "publishedSnapshotId": "xtww3y8ibm7ow4p",
+   "publishedTime": "2026-03-07T10:37:28.079Z"
+  }
+ ]
+}

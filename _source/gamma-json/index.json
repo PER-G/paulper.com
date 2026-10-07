@@ -1,0 +1,440 @@
+{
+ "type": "doc",
+ "content": [
+  {
+   "type": "document",
+   "attrs": {
+    "docId": "q1vxh31oxywk87c",
+    "aiOptions": {
+     "preserveLayouts": false,
+     "imageOptions": {
+      "stylePreset": "Photography",
+      "model": "flux-1-ultra",
+      "stylePrompt": "analog film photo. faded film, desaturated, 35mm photo, im Winter hell im Hintergrund schnell",
+      "artStylePreset": "photorealistic",
+      "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+      "modelAutoselect": false
+     }
+    },
+    "background": {
+     "type": "image",
+     "image": {
+      "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "showPlaceholder": false,
+      "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "meta": {
+       "width": 960,
+       "height": 1440
+      },
+      "query": "modern german sports car and stadium with technology background, professional photography",
+      "source": "image.ai-generated",
+      "aiParams": {
+       "model": "flux-1-pro",
+       "steps": 30,
+       "width": 960,
+       "height": 1440,
+       "prompt": "modern german sports car and stadium with technology background, professional photography",
+       "stylePrompt": "Hell, ",
+       "interactionId": "_C56jhTTHmOrqdvLJX7Go",
+       "upscaleFactor": 1
+      },
+      "provider": "flux",
+      "savedMediaId": "ne9q04z8lihjr2h"
+     },
+     "source": "image.ai-generated"
+    },
+    "docFlags": {
+     "cardLayoutsEnabled": true
+    },
+    "format": "webpage",
+    "customCode": {},
+    "settings": {
+     "defaultFullBleed": "full",
+     "stylesDerivedFrom": "webpage_fluid",
+     "cardDimensions": "fluid",
+     "verticalAlign": "center",
+     "defaultContentWidth": "lg",
+     "fontSize": "md",
+     "scaleContentToFit": false,
+     "animationsEnabled": true
+    },
+    "generateStatus": "done",
+    "generateInfo": {
+     "interactionId": "2jtexfh91t5qms9",
+     "streamId": "q1vxh31oxywk87c",
+     "lastEventId": "19",
+     "lastCompletedCardId": "qvv7s5qwazmlt51",
+     "lastCompletedCardIndex": 18
+    }
+   },
+   "content": [
+    {
+     "type": "card",
+     "attrs": {
+      "id": "l42un5a9sk12p84",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "behind",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "verticalAlign": "center"
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "itemId": "accent",
+        "fitType": "fill",
+        "background": {
+         "type": "image",
+         "image": {
+          "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/uc2JfiboPWdDKwG903u6t.jpg",
+          "showPlaceholder": false,
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/uc2JfiboPWdDKwG903u6t.jpg",
+          "meta": {
+           "width": 2048,
+           "height": 2048
+          },
+          "query": "Eine Weltkarte in einem modernen Büro, mit USM und Vitra Edelstahl glänzende Möbeln Tageslicht im Hintergrund ein großes Fenster mit Ausblick zu einer Landschaft und sonne",
+          "source": "image.ai-generated",
+          "aiParams": {
+           "model": "flux-1-ultra",
+           "width": 2048,
+           "height": 2048,
+           "prompt": "Eine Weltkarte in einem modernen Büro, mit USM und Vitra Edelstahl glänzende Möbeln Tageslicht im Hintergrund ein großes Fenster mit Ausblick zu einer Landschaft und sonne",
+           "stylePreset": "Photography",
+           "stylePrompt": "cinematic photo. 35mm photograph, film, bokeh, professional, 4k, highly detailed",
+           "interactionId": "V0vlvnDeyMNPxAwNIZc07",
+           "upscaleFactor": 1,
+           "negative_prompt": ""
+          },
+          "provider": "flux",
+          "savedMediaId": "pr50m4qcdxd8bi0"
+         },
+         "source": "image.ai-generated"
+        },
+        "id": "JjsOs"
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Paul P.E.R."
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Willkommen in meiner Welt!"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Ich freue mich, dich auf meiner persönlichen Webseite begrüßen zu dürfen. Hier teile ich meine Leidenschaften und Erfahrungen in den Bereichen Fotografie, Reisen, Qualität und Technik. Viel Spaß beim Erkunden!"
+          }
+         ]
+        },
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Entdecke meine Seite"
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "S8GLc"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Dropdown Menü"
+            }
+           ]
+          },
+          {
+           "type": "smartLayout",
+           "attrs": {
+            "variantKey": "timeline",
+            "options": {
+             "orientation": "vertical",
+             "twoSided": false,
+             "hasLine": false,
+             "numbered": true
+            },
+            "fullWidthBlock": false
+           },
+           "content": [
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "q9LQz",
+              "options": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://gamma.app/docs/PER-Entdecke-meine-Reiseziele-svy15y2uovglolr",
+                  "variant": "solid",
+                  "color": "#091231"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "PER - Entdecke meine Reiseziele"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "sEHbD",
+              "options": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Fotografie-0bdmzbbw1eqjh2q"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Fotografie"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "OPbMZ",
+              "options": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Auto-Fotografie-x87csbnik4byxsi"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Auto Fotografie"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "qZZ8U",
+              "options": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Uber-mich-rjjff09ojainakz"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Über mich"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "kS4Fk",
+              "options": {},
+              "image": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Blog-und-Kontakt-ci9i2gteu94g9jn"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Blog"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "YmFh7",
+              "options": {},
+              "image": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Blog-und-Kontakt-ci9i2gteu94g9jn"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Kontakt"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "Me0lD",
+              "options": {},
+              "image": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "variant": "solid",
+                  "color": "#091231",
+                  "href": "https://gamma.app/docs/PER-Games-4br06l673gitil2"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Games"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
+              "id": "Xts1G",
+              "options": {},
+              "image": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://gamma.app/docs/PER-Impressum-alamgr9by2aifcg",
+                  "variant": "solid",
+                  "color": "#091231"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Impressum"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "paragraph"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1580 @@
+{
+ "type": "doc",
+ "content": [
+  {
+   "type": "document",
+   "attrs": {
+    "aiOptions": {
+     "preserveLayouts": false,
+     "imageOptions": {
+      "stylePreset": "Photography",
+      "model": "flux-1-ultra",
+      "stylePrompt": "analog film photo. faded film, desaturated, 35mm photo, im Winter hell im Hintergrund schnell",
+      "artStylePreset": "photorealistic",
+      "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+      "modelAutoselect": false
+     }
+    },
+    "docId": "x87csbnik4byxsi",
+    "background": {
+     "type": "image",
+     "image": {
+      "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "showPlaceholder": false,
+      "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "meta": {
+       "width": 960,
+       "height": 1440
+      },
+      "query": "modern german sports car and stadium with technology background, professional photography",
+      "source": "image.ai-generated",
+      "aiParams": {
+       "model": "flux-1-pro",
+       "steps": 30,
+       "width": 960,
+       "height": 1440,
+       "prompt": "modern german sports car and stadium with technology background, professional photography",
+       "stylePrompt": "Hell, ",
+       "interactionId": "_C56jhTTHmOrqdvLJX7Go",
+       "upscaleFactor": 1
+      },
+      "provider": "flux",
+      "savedMediaId": "ne9q04z8lihjr2h"
+     },
+     "source": "image.ai-generated"
+    },
+    "docFlags": {
+     "cardLayoutsEnabled": true
+    },
+    "format": "webpage",
+    "customCode": {},
+    "settings": {
+     "defaultFullBleed": "full",
+     "stylesDerivedFrom": "webpage_fluid",
+     "cardDimensions": "fluid",
+     "verticalAlign": "center",
+     "defaultContentWidth": "lg",
+     "fontSize": "md",
+     "scaleContentToFit": false,
+     "animationsEnabled": true
+    },
+    "generateStatus": "done",
+    "generateInfo": {
+     "interactionId": "2jtexfh91t5qms9",
+     "streamId": "q1vxh31oxywk87c",
+     "lastEventId": "19",
+     "lastCompletedCardId": "qvv7s5qwazmlt51",
+     "lastCompletedCardIndex": 18
+    }
+   },
+   "content": [
+    {
+     "type": "card",
+     "attrs": {
+      "background": {
+       "type": "none"
+      },
+      "container": {
+       "width": "lg"
+      },
+      "cardSize": "default",
+      "layout": "right",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "id": "tjsx2qqpi4drt7p"
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "S9qoF",
+        "itemId": "accent",
+        "background": {
+         "type": "image",
+         "image": {
+          "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+          "showPlaceholder": false,
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+          "meta": {
+           "width": 960,
+           "height": 1440
+          },
+          "query": "modern german sports car and stadium with technology background, professional photography",
+          "source": "image.ai-generated",
+          "aiParams": {
+           "model": "flux-1-pro",
+           "steps": 30,
+           "width": 960,
+           "height": 1440,
+           "prompt": "modern german sports car and stadium with technology background, professional photography",
+           "stylePrompt": "Hell, ",
+           "interactionId": "_C56jhTTHmOrqdvLJX7Go",
+           "upscaleFactor": 1
+          },
+          "provider": "flux",
+          "savedMediaId": "ne9q04z8lihjr2h"
+         },
+         "mask": {
+          "effect": "faded"
+         },
+         "source": "image.ai-generated"
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine Begeisterung für Sport, Auto & Technik"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Meine Leidenschaften in Deutschland: Entdecke spannende Events und Hotspots rund um Sport, Auto und Technik."
+          }
+         ]
+        },
+        {
+         "type": "gridLayout",
+         "attrs": {
+          "colWidths": [
+           33.33,
+           33.33,
+           33.33
+          ],
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "gridCell",
+           "content": [
+            {
+             "type": "image",
+             "attrs": {
+              "id": "xBRU3",
+              "savedMediaId": "9qww7x0grbrf5ou",
+              "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJ8w103rBz8ycNVdM7iJR.jpg",
+              "uploadStatus": 3,
+              "meta": {
+               "width": 1440,
+               "height": 960
+              },
+              "aiParams": {
+               "model": "flux-1-pro",
+               "steps": 30,
+               "width": 1440,
+               "height": 960,
+               "prompt": "luxury german car showroom, professional photography",
+               "stylePrompt": "Hell, ",
+               "interactionId": "jhj2a0-ORnZKYdrf3ABLO",
+               "upscaleFactor": 1
+              },
+              "loadImageParams": {
+               "provider": "aiGenerated",
+               "query": "luxury german car showroom, professional photography",
+               "options": {
+                "stylePrompt": "Hell, ",
+                "aspectRatio": "landscape"
+               }
+              },
+              "loadImageStatus": "done",
+              "loadImageId": "1-srf",
+              "query": "luxury german car showroom, professional photography",
+              "source": "image.ai-generated",
+              "fullWidthBlock": false,
+              "resize": {
+               "clipType": null,
+               "clipPath": null,
+               "clipAspectRatio": null,
+               "width": null
+              }
+             }
+            },
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Autos"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Von klassischen Oldtimern bis zu modernen Automobilen -  meine Faszination deutscher Automobilkultur."
+              }
+             ]
+            },
+            {
+             "type": "buttonGroup",
+             "content": [
+              {
+               "type": "button",
+               "attrs": {
+                "href": "https://gamma.app/docs/x87csbnik4byxsi#card-uboksnz784f55gz",
+                "variant": "outline",
+                "color": "#37A7E7"
+               },
+               "content": [
+                {
+                 "type": "text",
+                 "text": "mehr dazu"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "gridCell",
+           "content": [
+            {
+             "type": "image",
+             "attrs": {
+              "id": "ZJN3R",
+              "savedMediaId": "cioifrhgo4t3jhf",
+              "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/JADcg_S5d2XzCuEHJk0GE.jpg",
+              "uploadStatus": 3,
+              "meta": {
+               "width": 1440,
+               "height": 960
+              },
+              "aiParams": {
+               "model": "flux-1-pro",
+               "steps": 30,
+               "width": 1440,
+               "height": 960,
+               "prompt": "german sports stadium packed with fans, dramatic view",
+               "stylePrompt": "Hell, ",
+               "interactionId": "oNwCuHjpsu5VieXKkWMR_",
+               "upscaleFactor": 1
+              },
+              "loadImageParams": {
+               "provider": "aiGenerated",
+               "query": "german sports stadium packed with fans, dramatic view",
+               "options": {
+                "stylePrompt": "Hell, ",
+                "aspectRatio": "landscape"
+               }
+              },
+              "loadImageStatus": "done",
+              "loadImageId": "cTIIl",
+              "query": "german sports stadium packed with fans, dramatic view",
+              "source": "image.ai-generated",
+              "fullWidthBlock": false,
+              "resize": {
+               "clipType": null,
+               "clipPath": null,
+               "clipAspectRatio": null,
+               "width": null
+              }
+             }
+            },
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Sport"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Sportveranstaltungen der Extraklasse: Von der Bundesliga Fußball WM und andere Sportveranstaltungen ."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "gridCell",
+           "content": [
+            {
+             "type": "image",
+             "attrs": {
+              "id": "lGOep",
+              "savedMediaId": "ir6x9n6wiaf2pup",
+              "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/IBIoT3-m8G-aznMTQ9cep.jpg",
+              "uploadStatus": 3,
+              "meta": {
+               "width": 1440,
+               "height": 960
+              },
+              "aiParams": {
+               "model": "flux-1-pro",
+               "steps": 30,
+               "width": 1440,
+               "height": 960,
+               "prompt": "modern german tech exhibition, futuristic displays",
+               "stylePrompt": "Hell, ",
+               "interactionId": "q1mUWQDHWpBJgxzXb_FBx",
+               "upscaleFactor": 1
+              },
+              "loadImageParams": {
+               "provider": "aiGenerated",
+               "query": "modern german tech exhibition, futuristic displays",
+               "options": {
+                "stylePrompt": "Hell, ",
+                "aspectRatio": "landscape"
+               }
+              },
+              "loadImageStatus": "done",
+              "loadImageId": "buKaE",
+              "query": "modern german tech exhibition, futuristic displays",
+              "source": "image.ai-generated",
+              "fullWidthBlock": false,
+              "resize": {
+               "clipType": null,
+               "clipPath": null,
+               "clipAspectRatio": null,
+               "width": null
+              }
+             }
+            },
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Technik"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Innovation Made in Germany: KI-Systeme, Multimedia, Automobil und Architektur."
+              }
+             ]
+            },
+            {
+             "type": "buttonGroup",
+             "content": [
+              {
+               "type": "button",
+               "attrs": {
+                "href": "https://gamma.app/docs/PER-Uber-mich-rjjff09ojainakz",
+                "variant": "outline",
+                "color": "#37A7E7"
+               },
+               "content": [
+                {
+                 "type": "text",
+                 "text": "mehr dazu"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "background": {
+       "type": "color",
+       "color": {
+        "hex": "#091231"
+       }
+      },
+      "container": {},
+      "cardSize": "contained",
+      "layout": "right",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "id": "uboksnz784f55gz"
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "a-MXV",
+        "itemId": "accent",
+        "background": {
+         "type": "image",
+         "image": {
+          "loadImageParams": {
+           "provider": "aiGenerated",
+           "query": "A beautifully lit, sleek sports car on a winding mountain road at sunset",
+           "options": {
+            "stylePrompt": "Hell, ",
+            "aspectRatio": "portrait"
+           }
+          },
+          "loadImageStatus": "done",
+          "loadImageId": "kQ4wG",
+          "source": "image.ai-generated",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/m_p22PIAyiwvQDh68335o.jpg",
+          "meta": {
+           "width": 960,
+           "height": 1440
+          },
+          "query": "A beautifully lit, sleek sports car on a winding mountain road at sunset",
+          "aiParams": {
+           "model": "flux-1-pro",
+           "steps": 30,
+           "width": 960,
+           "height": 1440,
+           "prompt": "A beautifully lit, sleek sports car on a winding mountain road at sunset",
+           "stylePrompt": "Hell, ",
+           "interactionId": "Ij1y_mwMcWDof7a8Fui1e",
+           "upscaleFactor": 1
+          },
+          "provider": "flux",
+          "savedMediaId": "r7w848s8htq78po",
+          "tempUrl": null,
+          "uploadStatus": 3
+         },
+         "mask": {
+          "effect": "faded"
+         }
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Autofotografie: Leidenschaft auf Rädern"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Die Kunst, automobile Meisterwerke einzufangen. Hier sind einige Beispiele meiner Arbeit:"
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "imagesText",
+          "options": {
+           "imageShape": "landscape",
+           "cellSize": 20,
+           "shapeSize": null,
+           "horizontalAlign": "right"
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "DAHrn",
+            "options": {},
+            "image": {
+             "source": "image.custom",
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "tempUrl": null,
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/4940ab95f76b4893b2fe163bdd1b0267/original/IMG_2023.jpeg",
+             "meta": {
+              "width": 1600,
+              "height": 1200,
+              "date_file_modified": "2025/02/13 09:02:21 GMT",
+              "aspect_ratio": 1.333,
+              "device_software": "Adobe Photoshop Fix 1.7.3",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2017",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#454751",
+              "version_id": ".AlZus9M0RFFRnycHXJBXXE2s6IDJV7V"
+             },
+             "name": "IMG_2023.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": " Kompakt und Eleganz"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Audi RS6 C7, ein zeitloser Allrounder."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "cHs4A",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "modern electric car, futuristic design, city background",
+              "options": {
+               "stylePrompt": "Hell, ",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "Bd5dR",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/94e9615f5c304c8486c1a7c6e7efd356/original/IMG_3153.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2022/01/07 12:33:23",
+              "date_file_created": "2022/01/07 12:33:23",
+              "date_file_modified": "2025/02/13 09:05:36 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 2.2,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/576",
+              "flash": "Off, Did not fire",
+              "focal_length": "7.5 mm",
+              "f_number": 2.2,
+              "iso": 20,
+              "light_value": 13.8,
+              "metering_mode": "Spot",
+              "shutter_speed": "1/576",
+              "white_balance": "Auto",
+              "device_name": "iPhone 12 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "15.1.1",
+              "latitude": 26.0575888888889,
+              "longitude": -81.6987694444445,
+              "orientation": "Rotate 90 CW",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#6c6f54",
+              "version_id": "evFdiOV_UOSrR_SX42EU_mrGBxCWpMKP"
+             },
+             "query": "modern electric car, futuristic design, city background",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "modern electric car, futuristic design, city background",
+              "stylePrompt": "Hell, ",
+              "interactionId": "OmIyO69boCG0kA2FnXWbG",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "76y1eykbperz6rc",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_3153.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Old but Gold"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Ferrari GTS 308"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "OF5Kl",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "vintage Mercedes-Benz, elegant, countryside road",
+              "options": {
+               "stylePrompt": "Hell, ",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "ulqkr",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/2edbd86f549d434391171ca03303970f/original/8833f6e4-7e03-4686-975d-76ae9e0ee478.jpeg",
+             "meta": {
+              "width": 5120,
+              "height": 3413,
+              "date_file_modified": "2025/02/13 08:43:38 GMT",
+              "aspect_ratio": 1.5,
+              "has_clipping_path": false,
+              "frame_count": 1,
+              "colorspace": "sRGB",
+              "has_transparency": false,
+              "average_color": "#6a6a68",
+              "version_id": "K2kTsURr6yayDx98TkpOKiqxcz_CNHsR"
+             },
+             "query": "vintage Mercedes-Benz, elegant, countryside road",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "vintage Mercedes-Benz, elegant, countryside road",
+              "stylePrompt": "Hell, ",
+              "interactionId": "qSqJeq9cYXtrRB5bIAlPf",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "yyz0r8j01sg30dt",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "8833f6e4-7e03-4686-975d-76ae9e0ee478.jpeg",
+             "uploadResultStep": "optimized",
+             "backgroundPos": {
+              "x": 24.67,
+              "y": 40.46
+             }
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Luxus Autos"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Lamborghini Revuelto."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "id": "wp6it5v4zzwpmh0"
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Automobile Fotografie: Von Konzept bis Klassiker"
+          }
+         ]
+        },
+        {
+         "type": "gallery",
+         "attrs": {
+          "thumbHeight": 15,
+          "fullWidthBlock": false,
+          "layout": "flex",
+          "dimensions": "square",
+          "thumbSpacing": 1
+         },
+         "content": [
+          {
+           "type": "image",
+           "attrs": {
+            "id": "LBq3J",
+            "savedMediaId": "fuso6giczu9v08f",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/tbnLj7mU-lsPBhQc0FU1C.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "futuristic concept car on display at auto show, dramatic lighting, professional automotive photography",
+             "stylePrompt": "Hell, ",
+             "interactionId": "-c02GqcIyCQzS7r-4kE6q",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "futuristic concept car on display at auto show, dramatic lighting, professional automotive photography",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "yo01e",
+            "query": "futuristic concept car on display at auto show, dramatic lighting, professional automotive photography",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "drQBE",
+            "savedMediaId": "q75miprf52wffes",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/TyfUQ4KtCe4tpBf9GfdAi.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "classic Ferrari 250 GTO, vintage automotive photography, elegant angle",
+             "stylePrompt": "Hell, ",
+             "interactionId": "ulfnMWQ6uDcn2X50k_sU4",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "classic Ferrari 250 GTO, vintage automotive photography, elegant angle",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "IShEt",
+            "query": "classic Ferrari 250 GTO, vintage automotive photography, elegant angle",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "xp3EN",
+            "savedMediaId": "h557gthqqoz64zv",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/u5tkA6WMWl7sGOd-6GyWD.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "modern Bugatti Chiron in front of modern architecture, luxury car photography",
+             "stylePrompt": "Hell, ",
+             "interactionId": "UiF9wgMDrrUHT2Yl9w_7R",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "modern Bugatti Chiron in front of modern architecture, luxury car photography",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "PoLlF",
+            "query": "modern Bugatti Chiron in front of modern architecture, luxury car photography",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "kBJSr",
+            "savedMediaId": "xvjwphr6x68pnj6",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/-MFtKUB24UYBv1qA00TOX.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "Mercedes Vision EQXX concept car, studio lighting, future of automotive",
+             "stylePrompt": "Hell, ",
+             "interactionId": "b3Ktz-JQY-h8H7CQ85k2v",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "Mercedes Vision EQXX concept car, studio lighting, future of automotive",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "R07hS",
+            "query": "Mercedes Vision EQXX concept car, studio lighting, future of automotive",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "3Fm59",
+            "savedMediaId": "ai10o0e4gyqzabp",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/cCDKCn4ywjUriFaxgD2Bd.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "classic Porsche 911 from 1960s, restored condition, automotive photography",
+             "stylePrompt": "Hell, ",
+             "interactionId": "ElOigVsK1FGe4IUZYpTIs",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "classic Porsche 911 from 1960s, restored condition, automotive photography",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "1fnxM",
+            "query": "classic Porsche 911 from 1960s, restored condition, automotive photography",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "uSv9n",
+            "savedMediaId": "ngxxxqr474o648f",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/mCXQMa9LPGRuKemazhS8v.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "Lamborghini Revuelto, dynamic angle, professional car photography",
+             "stylePrompt": "Hell, ",
+             "interactionId": "QzCNJhdnLKK_kt4qoHLAR",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "Lamborghini Revuelto, dynamic angle, professional car photography",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "Ub5zl",
+            "query": "Lamborghini Revuelto, dynamic angle, professional car photography",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "Cx5HT",
+            "savedMediaId": "cntnouvkep5xzpl",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/lmB0lzQuX4nUReOa2G1ag.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "Rolls-Royce Spectre electric luxury car, elegant setting, premium photography",
+             "stylePrompt": "Hell, ",
+             "interactionId": "dZNhGglkStq6GRQ5oZGSF",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "Rolls-Royce Spectre electric luxury car, elegant setting, premium photography",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "83atX",
+            "query": "Rolls-Royce Spectre electric luxury car, elegant setting, premium photography",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          },
+          {
+           "type": "image",
+           "attrs": {
+            "id": "NhglM",
+            "savedMediaId": "pqovo3pv7z71wzk",
+            "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/G6rJtSN24W4O1gfkuAes8.jpg",
+            "uploadStatus": 3,
+            "meta": {
+             "width": 1440,
+             "height": 960
+            },
+            "aiParams": {
+             "model": "flux-1-pro",
+             "steps": 30,
+             "width": 1440,
+             "height": 960,
+             "prompt": "BMW M1 classic supercar, automotive photography, dramatic lighting",
+             "stylePrompt": "Hell, ",
+             "interactionId": "RGXq2EuET4ItfI3ADj14F",
+             "upscaleFactor": 1
+            },
+            "loadImageParams": {
+             "provider": "aiGenerated",
+             "query": "BMW M1 classic supercar, automotive photography, dramatic lighting",
+             "options": {
+              "stylePrompt": "Hell, ",
+              "aspectRatio": "landscape"
+             }
+            },
+            "loadImageStatus": "done",
+            "loadImageId": "sn1Tn",
+            "query": "BMW M1 classic supercar, automotive photography, dramatic lighting",
+            "source": "image.ai-generated",
+            "fullWidthBlock": false,
+            "resize": {
+             "clipType": null,
+             "clipPath": null,
+             "clipAspectRatio": null,
+             "width": null
+            }
+           }
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Tauche ein in die faszinierende Welt der Automobilfotografie. Von visionären Konzeptfahrzeugen über exklusive Luxusautomobile bis hin zu zeitlosen Klassikern - erlebe die Kunst der automobilen Fotografie in ihrer schönsten Form."
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "background": {
+       "type": "none"
+      },
+      "container": {
+       "background": {
+        "type": "color",
+        "color": {
+         "hex": "#0A081B"
+        }
+       }
+      },
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "id": "23cqzjx6ka7fa3x"
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Oldtimer-Treffen Tübingen: Klassiker in Aktion"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Eine Reise in die Vergangenheit! Erlebe die Faszination klassischer Automobile auf Oldtimer-Treffen in ganz Deutschland."
+          }
+         ]
+        },
+        {
+         "type": "smartLayout",
+         "attrs": {
+          "variantKey": "imagesText",
+          "options": {
+           "imageShape": "landscape",
+           "cellSize": 20,
+           "shapeSize": "full"
+          },
+          "fullWidthBlock": false
+         },
+         "content": [
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "daOTI",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "classic Mercedes-Benz car, sunny day",
+              "options": {
+               "stylePrompt": "Hell, ",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "GvuAT",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/6537226ba49d40269c1c8a1dc188eb22/original/IMG_5540.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2024/07/28 12:16:58",
+              "date_file_created": "2024/07/28 12:16:58",
+              "date_file_modified": "2025/02/13 10:00:34 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 1.8,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/4762",
+              "flash": "Off, Did not fire",
+              "focal_length": "6.9 mm",
+              "f_number": 1.8,
+              "iso": 80,
+              "light_value": 14.2,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/4762",
+              "white_balance": "Auto",
+              "device_name": "iPhone 14 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "17.5.1",
+              "latitude": 48.5207361111111,
+              "longitude": 9.05644444444444,
+              "orientation": "Rotate 90 CW",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#7c7473",
+              "version_id": "c4yCv74QPwgqMM5RFr7.CjZn2WNdbbvV"
+             },
+             "query": "classic Mercedes-Benz car, sunny day",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "classic Mercedes-Benz car, sunny day",
+              "stylePrompt": "Hell, ",
+              "interactionId": "-s2PaUskLvZd8c1nETK9v",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "vm7a8b3y5xin1aq",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_5540.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Geschichte"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Automobile Legenden."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "qnbmx",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "vintage Porsche 911 car, sunny day",
+              "options": {
+               "stylePrompt": "Hell, ",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "Yh6pY",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/fad6d29a841b4a4ca74ac2945ae726da/original/IMG_5718.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2023/07/30 16:13:57",
+              "date_file_created": "2023/07/30 16:13:57",
+              "date_file_modified": "2025/02/13 10:01:31 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 1.8,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/7576",
+              "flash": "Off, Did not fire",
+              "focal_length": "6.9 mm",
+              "f_number": 1.8,
+              "iso": 80,
+              "light_value": 14.9,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/7576",
+              "white_balance": "Auto",
+              "device_name": "iPhone 14 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "16.3.1",
+              "latitude": 48.5203527777778,
+              "longitude": 9.05579166666667,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#6f6d6a",
+              "version_id": "EgDdlYATkO7iVAXxQ2OGQrIvZ.D9p77."
+             },
+             "query": "vintage Porsche 911 car, sunny day",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "vintage Porsche 911 car, sunny day",
+              "stylePrompt": "Hell, ",
+              "interactionId": "ehA__Ug68P_frlTEMC0d5",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "r2iy1628nqiodgu",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_5718.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Leidenschaft"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Begeisterung für Klassiker."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "bM_PW",
+            "options": {},
+            "image": {
+             "loadImageParams": {
+              "provider": "aiGenerated",
+              "query": "oldtimer BMW, sunny day",
+              "options": {
+               "stylePrompt": "Hell, ",
+               "aspectRatio": "landscape"
+              }
+             },
+             "loadImageStatus": "done",
+             "loadImageId": "iaDFj",
+             "source": "image.custom",
+             "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/3ff01f2e26ba41edb1344d24f7d0ca25/original/IMG_5537.jpeg",
+             "meta": {
+              "width": 4032,
+              "height": 3024,
+              "date_recorded": "2024/07/28 12:11:12",
+              "date_file_created": "2024/07/28 12:11:12",
+              "date_file_modified": "2025/02/13 10:02:06 GMT",
+              "aspect_ratio": 1.333,
+              "aperture": 1.8,
+              "exposure_compensation": 0,
+              "exposure_mode": "Auto",
+              "exposure_time": "1/3472",
+              "flash": "Off, Did not fire",
+              "focal_length": "6.9 mm",
+              "f_number": 1.8,
+              "iso": 80,
+              "light_value": 13.7,
+              "metering_mode": "Multi-segment",
+              "shutter_speed": "1/3472",
+              "white_balance": "Auto",
+              "device_name": "iPhone 14 Pro Max",
+              "device_vendor": "Apple",
+              "device_software": "17.5.1",
+              "latitude": 48.5201416666667,
+              "longitude": 9.05662777777778,
+              "orientation": "Horizontal (normal)",
+              "has_clipping_path": false,
+              "copyright": "Copyright Apple Inc., 2022",
+              "frame_count": 1,
+              "colorspace": "RGB",
+              "has_transparency": false,
+              "average_color": "#805f59",
+              "version_id": "FNU..cIAYn73HFHBjWLQk.nWUJSMV0zq"
+             },
+             "query": "oldtimer BMW, sunny day",
+             "aiParams": {
+              "model": "flux-1-pro",
+              "steps": 30,
+              "width": 1440,
+              "height": 960,
+              "prompt": "oldtimer BMW, sunny day",
+              "stylePrompt": "Hell, ",
+              "interactionId": "3fLTgeIUv8vUhsbRGGJDh",
+              "upscaleFactor": 1
+             },
+             "provider": "flux",
+             "savedMediaId": "4q6tghi4gw4l3gl",
+             "tempUrl": null,
+             "uploadStatus": 0,
+             "showPlaceholder": false,
+             "name": "IMG_5537.jpeg",
+             "uploadResultStep": "optimized"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Eleganz"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Zeitlose Designs."
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "buttonGroup",
+         "attrs": {
+          "horizontalAlign": "right"
+         },
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://gamma.app/docs/q1vxh31oxywk87c#card-l42un5a9sk12p84",
+            "variant": "outline",
+            "color": "#29DDDA"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Startseite"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

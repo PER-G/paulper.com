@@ -1,0 +1,461 @@
+{
+ "type": "doc",
+ "content": [
+  {
+   "type": "document",
+   "attrs": {
+    "aiOptions": {
+     "preserveLayouts": false,
+     "imageOptions": {
+      "stylePreset": "Theme",
+      "model": "flux-2-klein",
+      "stylePrompt": "",
+      "artStylePreset": "photorealistic",
+      "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+      "modelAutoselect": true,
+      "count": 3
+     },
+     "cardContentType": "image"
+    },
+    "docId": "4br06l673gitil2",
+    "background": {
+     "type": "none"
+    },
+    "docFlags": {
+     "cardLayoutsEnabled": true
+    },
+    "format": "deck",
+    "customCode": {},
+    "settings": {
+     "defaultFullBleed": "contained",
+     "stylesDerivedFrom": "deck_default",
+     "cardDimensions": "fluid",
+     "verticalAlign": "center",
+     "defaultContentWidth": "lg",
+     "fontSize": "md",
+     "scaleContentToFit": false,
+     "locale": "de",
+     "animationsEnabled": true
+    },
+    "generateStatus": "done",
+    "generateInfo": {
+     "interactionId": "e8dhouqcmfeg1f8",
+     "streamId": "4br06l673gitil2",
+     "lastEventId": "3",
+     "lastCompletedCardId": "dxz20wedgb7fsoa",
+     "lastCompletedCardIndex": 2
+    }
+   },
+   "content": [
+    {
+     "type": "card",
+     "attrs": {
+      "id": "t02m7s95rgh2dgt",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardImageItem",
+       "attrs": {
+        "id": "Nn5RG",
+        "image": {
+         "loadImageParams": {
+          "provider": "aiGenerated",
+          "query": "Title slide with centered layout. Large bold heading \"Paul PER Gaming\" at center. Subtitle \"HTML-basierte Spiele\" below with spacing. Background features abstract digital grid pattern suggesting retro gaming and code structure. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners. Atmospheric depth with layered technical elements.",
+          "options": {
+           "aspectRatio": "landscape",
+           "model": "gemini-3-pro-image",
+           "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+           "stylePreset": "Theme",
+           "artStylePreset": "photorealistic",
+           "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+           "visualsMenuEnabled": true
+          }
+         },
+         "source": "image.ai-image-card",
+         "loadImageStatus": "done",
+         "loadImageId": "2J1u8",
+         "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/8Iwt6KIHbYqM623xrD5fr.png",
+         "meta": {
+          "width": 2752,
+          "height": 1536
+         },
+         "query": "Title slide with centered layout. Large bold heading \"Paul PER Gaming\" at center. Subtitle \"HTML-basierte Spiele\" below with spacing. Background features abstract digital grid pattern suggesting retro gaming and code structure. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners. Atmospheric depth with layered technical elements.",
+         "aiParams": {
+          "model": "gemini-3-pro-image",
+          "width": 2752,
+          "height": 1536,
+          "prompt": "Title slide with centered layout. Large bold heading \"Paul PER Gaming\" at center. Subtitle \"HTML-basierte Spiele\" below with spacing. Background features abstract digital grid pattern suggesting retro gaming and code structure. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners. Atmospheric depth with layered technical elements.",
+          "themeId": "borealis",
+          "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+          "interactionId": "e8dhouqcmfeg1f8",
+          "artStylePreset": "photorealistic",
+          "artStylePrompt": "photorealistic. highly detailed, cinematic, professional"
+         },
+         "provider": "google",
+         "savedMediaId": "01KHRM29QH1BRPAX0KRMRS3Z04",
+         "providerRegion": "global",
+         "tempUrl": null,
+         "uploadStatus": 3
+        }
+       }
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "00hvl7gw7g1j6h8",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "5rgcb",
+          "url": "https://per-g.github.io/Alien-Clones/",
+          "source": "embed.custom",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/f0fca0567aab44dc9fd3901c51fd6550/original/WhatsApp-Image-2026-02-22-at-12.36.17.jpeg"
+          },
+          "embed": {
+           "url": "https://per-g.github.io/Alien-Clones/"
+          },
+          "meta": {
+           "title": "ALIEN CLONES",
+           "description": "Vernichte deine Klone! 3D Shooter im Browser.",
+           "medium": "link"
+          },
+          "proxy": false,
+          "sourceUrl": "https://paulruppersberg.github.io/Alien-Clones/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "u0ypebu0k7lmggv",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "AYCu-",
+          "url": "https://per-g.github.io/Jungle-Clash/",
+          "source": "embed.custom",
+          "embed": {
+           "url": "https://per-g.github.io/Jungle-Clash/"
+          },
+          "meta": {
+           "title": "Jungle Clash"
+          },
+          "proxy": false,
+          "sourceUrl": "https://per-g.github.io/Jungle-Clash/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete",
+          "clickBehavior": "newTab",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/2b2ad060619949d3b03f36c0f810e08a/original/Jungle-Clash-Titel-Bild.png"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "8r2fgad1w96ym94",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "w3Eb0",
+          "url": "https://per-g.github.io/Moorhuhn-Jagd/",
+          "source": "embed.custom",
+          "embed": {
+           "url": "https://per-g.github.io/Moorhuhn-Jagd/"
+          },
+          "meta": {
+           "title": "🐔 Hühnerjagd - Wellenmodus"
+          },
+          "proxy": false,
+          "sourceUrl": "https://per-g.github.io/Moorhuhn-Jagd/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/3284e17784a5463b9f5bced2518ac816/original/472a785f-f5a6-4fa1-9b52-12b2ef2194a4.png"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "an4l9wv3t0uegr2",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "HLzC9",
+          "url": "https://per-g.github.io/Stickman-Sniper/",
+          "source": "embed.custom",
+          "embed": {
+           "url": "https://per-g.github.io/Stickman-Sniper/"
+          },
+          "meta": {
+           "title": "Stickman Elite Sniper: Rooftop Rescue"
+          },
+          "proxy": false,
+          "sourceUrl": "https://per-g.github.io/Stickman-Sniper/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/f44e2941be714cddb2fccd1c9caa608b/original/Stickman-Sniper.png"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "c6azjtyyvip9lsp",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "je1U0",
+          "url": "https://per-g.github.io/Hawo-Validation-Simulator/",
+          "source": "embed.custom",
+          "embed": {
+           "url": "https://per-g.github.io/Hawo-Validation-Simulator/"
+          },
+          "meta": {
+           "title": "HAWO Validation Simulator 3000",
+           "description": "Verpacke Spritzen & Schläuche und schweiße sie perfekt ein."
+          },
+          "proxy": false,
+          "sourceUrl": "https://per-g.github.io/Hawo-Validation-Simulator/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/49b62fd795784ea7aad723c1e4209983/original/Validation-Simulator.png"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "dxz20wedgb7fsoa",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardImageItem",
+       "attrs": {
+        "id": "EplLK",
+        "image": {
+         "loadImageParams": {
+          "provider": "aiGenerated",
+          "query": "Future vision slide with atmospheric developer workspace. Desk scene showing illuminated monitor with code editor, scattered concept sketches of various game prototypes (platformer, puzzle, adventure icons), mechanical keyboard with RGB backlight. Title \"Funny Gamming\" at top third. Silhouette of developer (Paul) in background, focused on screen. Warm desk lamp creates intimate coding atmosphere. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners for cohesion with previous slides.",
+          "options": {
+           "prompt": "Future vision slide with atmospheric developer workspace. Desk scene showing illuminated monitor with code editor, scattered concept sketches of various game prototypes (platformer, puzzle, adventure icons), mechanical keyboard with RGB backlight. Title \"Funny Gamming\" at top third. Silhouette of developer (Paul) in background, focused on screen. Warm desk lamp creates intimate coding atmosphere. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners for cohesion with previous slides.",
+           "model": "flux-2-klein",
+           "aspectRatio": "landscape",
+           "count": 3,
+           "artStylePreset": "photorealistic",
+           "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+           "styleReferenceImages": [],
+           "modelAutoselect": true,
+           "visualsMenuEnabled": true,
+           "stylePreset": "Theme",
+           "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look."
+          }
+         },
+         "source": "image.ai-image-card",
+         "loadImageStatus": "done",
+         "loadImageId": "2LMqp",
+         "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/Jtf790WgoViBq5JsjaLzZ.png",
+         "meta": {
+          "width": 1920,
+          "height": 1088
+         },
+         "query": "Future vision slide with atmospheric developer workspace. Desk scene showing illuminated monitor with code editor, scattered concept sketches of various game prototypes (platformer, puzzle, adventure icons), mechanical keyboard with RGB backlight. Title \"Die Zukunft\" at top third. Silhouette of developer (Paul) in background, focused on screen. Warm desk lamp creates intimate coding atmosphere. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners for cohesion with previous slides.",
+         "aiParams": {
+          "model": "flux-2-pro",
+          "width": 1920,
+          "height": 1088,
+          "prompt": "Future vision slide with atmospheric developer workspace. Desk scene showing illuminated monitor with code editor, scattered concept sketches of various game prototypes (platformer, puzzle, adventure icons), mechanical keyboard with RGB backlight. Title \"Funny Gamming\" at top third. Silhouette of developer (Paul) in background, focused on screen. Warm desk lamp creates intimate coding atmosphere. Neon green and cyan accent glows reminiscent of arcade cabinets, subtle pixel-art decorative elements in corners for cohesion with previous slides.",
+          "themeId": "borealis",
+          "stylePrompt": "Bold and creative with a playful and fresh style, featuring vibrant shades of teal, green, and neon blue in a dynamic gradient for a modern look.",
+          "interactionId": "73c08a45eaac9fa1-dda4a52fef44198d",
+          "artStylePreset": "photorealistic",
+          "artStylePrompt": "photorealistic. highly detailed, cinematic, professional"
+         },
+         "provider": "flux",
+         "savedMediaId": "01KHRN6SPN1MG3XPJ2VCKWD7TJ",
+         "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:500/height:500/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/Jtf790WgoViBq5JsjaLzZ.png@jpg",
+         "uploadStatus": 3,
+         "showPlaceholder": false
+        }
+       }
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "attrs": {
+      "id": "s6porm8zre65b7v",
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "blank",
+      "cardMarginSettings": {},
+      "hidden": false
+     },
+     "content": [
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "embed",
+         "attrs": {
+          "id": "q5LnT",
+          "url": "https://per-g.github.io/HTML-Studio/",
+          "source": "embed.custom",
+          "embed": {
+           "url": "https://per-g.github.io/HTML-Studio/"
+          },
+          "meta": {
+           "title": "HTML Studio"
+          },
+          "proxy": false,
+          "sourceUrl": "https://per-g.github.io/HTML-Studio/",
+          "displayStyle": "preview",
+          "fullWidthBlock": false,
+          "embedFetchStatus": "complete",
+          "thumbnail": {
+           "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/413c0c57e36442599ad12c7c0f050505/original/WhatsApp-Image-2026-01-01-at-12.01.40.jpeg"
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

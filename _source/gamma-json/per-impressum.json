@@ -1,0 +1,387 @@
+{
+ "type": "doc",
+ "content": [
+  {
+   "type": "document",
+   "attrs": {
+    "aiOptions": {
+     "preserveLayouts": false,
+     "imageOptions": {
+      "stylePreset": "Photography",
+      "model": "flux-1-ultra",
+      "stylePrompt": "analog film photo. faded film, desaturated, 35mm photo, im Winter hell im Hintergrund schnell",
+      "artStylePreset": "photorealistic",
+      "artStylePrompt": "photorealistic. highly detailed, cinematic, professional",
+      "modelAutoselect": false
+     }
+    },
+    "docId": "alamgr9by2aifcg",
+    "background": {
+     "type": "image",
+     "image": {
+      "tempUrl": "https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:400/height:400/https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "showPlaceholder": false,
+      "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/KJisrEx2uAP5c_fYQgT3U.jpg",
+      "meta": {
+       "width": 960,
+       "height": 1440
+      },
+      "query": "modern german sports car and stadium with technology background, professional photography",
+      "source": "image.ai-generated",
+      "aiParams": {
+       "model": "flux-1-pro",
+       "steps": 30,
+       "width": 960,
+       "height": 1440,
+       "prompt": "modern german sports car and stadium with technology background, professional photography",
+       "stylePrompt": "Hell, ",
+       "interactionId": "_C56jhTTHmOrqdvLJX7Go",
+       "upscaleFactor": 1
+      },
+      "provider": "flux",
+      "savedMediaId": "ne9q04z8lihjr2h"
+     },
+     "source": "image.ai-generated"
+    },
+    "docFlags": {
+     "cardLayoutsEnabled": true
+    },
+    "format": "webpage",
+    "customCode": {},
+    "settings": {
+     "defaultFullBleed": "full",
+     "stylesDerivedFrom": "webpage_fluid",
+     "cardDimensions": "fluid",
+     "verticalAlign": "center",
+     "defaultContentWidth": "lg",
+     "fontSize": "md",
+     "scaleContentToFit": false,
+     "animationsEnabled": true
+    },
+    "generateStatus": "done",
+    "generateInfo": {
+     "interactionId": "2jtexfh91t5qms9",
+     "streamId": "q1vxh31oxywk87c",
+     "lastEventId": "19",
+     "lastCompletedCardId": "qvv7s5qwazmlt51",
+     "lastCompletedCardIndex": 18
+    }
+   },
+   "content": [
+    {
+     "type": "card",
+     "attrs": {
+      "background": {
+       "type": "none"
+      },
+      "container": {},
+      "cardSize": "default",
+      "layout": "behind",
+      "cardMarginSettings": {},
+      "hidden": false,
+      "id": "i05lu0gbfhzxl6z"
+     },
+     "content": [
+      {
+       "type": "cardAccentLayoutItem",
+       "attrs": {
+        "id": "WsNTh",
+        "itemId": "accent",
+        "fitType": "fill",
+        "background": {
+         "type": "image",
+         "image": {
+          "id": "wy97J",
+          "horizontalAlign": null,
+          "savedMediaId": "qptfge08lyr23so",
+          "src": "https://cdn.gamma.app/6w7p2qt1ecowoml/generated-images/1WeFQRNuu-nxTF-lVbn5x.jpg",
+          "tempUrl": null,
+          "uploadStatus": 3,
+          "meta": {
+           "width": 1440,
+           "height": 960
+          },
+          "providerMeta": null,
+          "aiParams": {
+           "model": "flux-1-pro",
+           "steps": 30,
+           "width": 1440,
+           "height": 960,
+           "prompt": "legal documents and a secure lock, symbolizing privacy and legal compliance",
+           "stylePreset": "Custom",
+           "stylePrompt": "Hell, ",
+           "interactionId": "2jtexfh91t5qms9",
+           "upscaleFactor": 1
+          },
+          "loadImageParams": {
+           "provider": "aiGenerated",
+           "query": "legal documents and a secure lock, symbolizing privacy and legal compliance",
+           "options": {
+            "model": "flux-1-pro",
+            "stylePreset": "Custom",
+            "stylePrompt": "Hell, ",
+            "aspectRatio": "landscape"
+           }
+          },
+          "loadImageStatus": "done",
+          "loadImageId": "yJvIL",
+          "name": null,
+          "query": "legal documents and a secure lock, symbolizing privacy and legal compliance",
+          "source": "image.ai-generated",
+          "showPlaceholder": null,
+          "fullWidthBlock": false,
+          "resize": {
+           "clipType": null,
+           "clipPath": null,
+           "clipAspectRatio": null,
+           "width": null
+          },
+          "clickBehavior": null,
+          "href": null,
+          "provider": "flux"
+         },
+         "source": "image.ai-generated",
+         "mask": {
+          "effect": "faded"
+         }
+        }
+       }
+      },
+      {
+       "type": "cardLayoutItem",
+       "attrs": {
+        "itemId": "body"
+       },
+       "content": [
+        {
+         "type": "heading",
+         "attrs": {
+          "level": 1
+         },
+         "content": [
+          {
+           "type": "text",
+           "text": "Impressum & Datenschutz"
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Wichtige Informationen! Hier findest du alle rechtlichen Informationen zu dieser Webseite, einschließlich Impressum und Datenschutzerklärung."
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "UQ3rr"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Impressum"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Verantwortlich für den Inhalt dieser Website:"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Paul P.E.R."
+            },
+            {
+             "type": "hardBreak"
+            },
+            {
+             "type": "text",
+             "text": "72072 Tübingen"
+            },
+            {
+             "type": "hardBreak"
+            },
+            {
+             "type": "text",
+             "text": "Deutschland"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Instagram (@paul__per_)",
+             "marks": [
+              {
+               "type": "link",
+               "attrs": {
+                "href": "https://www.instagram.com/paul__per_/",
+                "source": "embed.instagram",
+                "thumbnail": {
+                 "src": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/464956944_417407971410777_6437042039721056213_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=1-7&_nc_sid=bf7eb4&_nc_ohc=fJY1Wyyet6MQ7kNvgHqY9HO&_nc_oc=AdhQKIOo27nDxNxiV3YYG3w5-1fc66nBakr2jT26aRXj30dkcAdFdAY1FexZU2FN4a0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&oh=00_AYBwgUpafEL9rI01X3aQCp_TfcVqjVBJXkOib2DnHTOv0Q&oe=67B3E0FE",
+                 "height": 100,
+                 "width": 100
+                },
+                "embed": null,
+                "meta": {
+                 "medium": "profile",
+                 "title": "Instagram (@paul__per_)",
+                 "description": "Instagram photos and videos",
+                 "canonical": "https://www.instagram.com/paul__per_/",
+                 "xframe": "deny",
+                 "csp": "default-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-tpwb6xmg' blob: data: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com cdn.fbsbx.com data: blob: https://*.giphy.com;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;block-all-mixed-content;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?minimize=0;",
+                 "icon": "https://static.cdninstagram.com/rsrc.php/v4/yI/r/VsNE-OHk_8a.png"
+                }
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "paragraph"
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "xRJbw"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Datenschutzerklärung"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Der Schutz deiner persönlichen Daten ist uns wichtig. Diese Datenschutzerklärung informiert dich über Art, Umfang und Zweck der Verarbeitung personenbezogener Daten auf dieser Website."
+            }
+           ]
+          },
+          {
+           "type": "bullet",
+           "attrs": {
+            "indent": 0
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Deine Daten werden nur für die angegebenen Zwecke verwendet"
+            }
+           ]
+          },
+          {
+           "type": "bullet",
+           "attrs": {
+            "indent": 0
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Wir speichern nur die notwendigsten Informationen"
+            }
+           ]
+          },
+          {
+           "type": "bullet",
+           "attrs": {
+            "indent": 0
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Du hast jederzeit das Recht auf Auskunft, Berichtigung oder Löschung"
+            }
+           ]
+          },
+          {
+           "type": "bullet",
+           "attrs": {
+            "indent": 0
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Alle Daten werden nach höchsten Sicherheitsstandards geschützt"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "toggle",
+         "attrs": {
+          "id": "YGtGa"
+         },
+         "content": [
+          {
+           "type": "toggleSummary",
+           "content": [
+            {
+             "type": "text",
+             "text": "Cookie-Richtlinie"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Diese Website verwendet Cookies, um dir die bestmögliche Nutzererfahrung zu bieten. Cookies sind kleine Textdateien, die auf deinem Gerät gespeichert werden."
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Du kannst in deinen Browser-Einstellungen festlegen, ob du Cookies akzeptieren möchtest oder nicht. Bitte beachte, dass einige Funktionen der Website möglicherweise nicht verfügbar sind, wenn du Cookies deaktivierst."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "Bei Fragen zum Datenschutz oder anderen rechtlichen Angelegenheiten stehe ich dir gerne zur Verfügung. Dein Vertrauen ist mir wichtig!"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
