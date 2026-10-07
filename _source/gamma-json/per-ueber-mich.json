@@ -164,17 +164,26 @@
          ]
         },
         {
-         "type": "paragraph",
+         "type": "toggle",
          "attrs": {
-          "class": "highlight"
+          "id": "sohn1"
          },
          "content": [
           {
-           "type": "text",
-           "text": "Ein wichtiger Teil meines Lebens ist mein Sohn, der im November 2025 zur Welt kam.",
-           "marks": [
+           "type": "toggleSummary",
+           "content": [
             {
-             "type": "bold"
+             "type": "text",
+             "text": "Mein Sohn – der wichtigste Teil meines Lebens"
+            }
+           ]
+          },
+          {
+           "type": "paragraph",
+           "content": [
+            {
+             "type": "text",
+             "text": "Der wichtigste Teil meines Lebens ist mein Sohn, der im November 2025 zur Welt kam."
             }
            ]
           }
@@ -1961,7 +1970,7 @@
             "id": "sicht01",
             "options": {},
             "image": {
-             "src": "/assets/media/sichtschutz-treppe.jpg"
+             "src": "/assets/media/sichtschutz-treppe.webp"
             }
            },
            "content": [
