@@ -72,6 +72,8 @@ def img(url, width=1800):
     """Registriert ein Bild zum Download und liefert den lokalen Pfad (relativ zur Seitenwurzel)."""
     if not url:
         return ""
+    if url.startswith("/"):
+        return url
     if url not in IMAGES:
         ext = os.path.splitext(urllib.parse.urlparse(url).path)[1].lower()
         if ext not in (".jpg", ".jpeg", ".png", ".webp", ".gif"):

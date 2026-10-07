@@ -1921,6 +1921,72 @@
              ]
             }
            ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "pv01",
+            "options": {},
+            "image": {
+             "src": "/assets/media/pv-anlage.webp"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "PV-Anlage auf dem Flachdach"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "12,5 kWp Photovoltaik mit 13,5 kWh Tesla-Speicher – Strom vom eigenen Dach für Haus und Alltag."
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "type": "smartLayoutCell",
+           "attrs": {
+            "id": "sicht01",
+            "options": {},
+            "image": {
+             "src": "/assets/media/sichtschutz-treppe.jpg"
+            }
+           },
+           "content": [
+            {
+             "type": "heading",
+             "attrs": {
+              "level": 4
+             },
+             "content": [
+              {
+               "type": "text",
+               "text": "Sichtschutzwand an der Treppe"
+              }
+             ]
+            },
+            {
+             "type": "paragraph",
+             "content": [
+              {
+               "type": "text",
+               "text": "Holzlamellen als Sichtschutz unter der verzinkten Außentreppe – warmes Holz trifft klaren Stahl."
+              }
+             ]
+            }
+           ]
           }
          ]
         },
