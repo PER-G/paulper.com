@@ -71,12 +71,15 @@
     kontakt: function () {
       show('<svg class="fx-ecg" viewBox="0 0 1200 200" preserveAspectRatio="none"><path d="M0 100 L140 100 L158 100 L172 74 L186 126 L200 100 L330 100 L365 100 L380 26 L400 168 L420 100 L555 100 L595 100 L610 72 L625 122 L640 100 L780 100 L820 100 L836 20 L856 172 L876 100 L1020 100 L1055 100 L1070 70 L1085 124 L1100 100 L1200 100"/></svg>', '#BF5AF2');
     },
+    fitness: function () {
+      show('<div class="fx-veil"></div><div class="fx-ring"></div><div class="fx-ring b"></div><svg class="fx-ecg" viewBox="0 0 1200 200" preserveAspectRatio="none"><path d="M0 100 L300 100 L330 100 L350 60 L370 140 L390 100 L520 100 L560 100 L580 20 L605 180 L630 100 L780 100 L820 100 L840 64 L860 136 L880 100 L1200 100"/></svg>', '#30D158');
+    },
     impressum: function () {
       show('<div class="fx-veil"></div><div class="fx-ring"></div><div class="fx-ring b"></div>', '#86868B');
     }
   };
   // Wie lange der Effekt läuft, bevor die neue Seite geladen wird
-  var WAIT = { start: 420, foto: 520, reise: 620, auto: 480, ueber: 760, games: 440, kontakt: 520, impressum: 380 };
+  var WAIT = { start: 420, foto: 520, reise: 620, auto: 480, ueber: 760, games: 440, kontakt: 520, impressum: 380, fitness: 560 };
 
   function keyFor(path) {
     path = decodeURI(path);
@@ -88,6 +91,7 @@
     if (path.indexOf('/per-games') === 0) return 'games';
     if (path.indexOf('/per-blog') === 0) return 'kontakt';
     if (path.indexOf('/per-impressum') === 0) return 'impressum';
+    if (path.indexOf('/per-fitness') === 0) return 'fitness';
     return null;
   }
 

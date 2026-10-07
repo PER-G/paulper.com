@@ -310,6 +310,34 @@
             {
              "type": "smartLayoutCell",
              "attrs": {
+              "id": "fit01",
+              "options": {}
+             },
+             "content": [
+              {
+               "type": "buttonGroup",
+               "content": [
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "/per-fitness-ernaehrung/",
+                  "variant": "solid",
+                  "color": "#091231"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Fitness & Ernährung"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "type": "smartLayoutCell",
+             "attrs": {
               "id": "kS4Fk",
               "options": {},
               "image": {}

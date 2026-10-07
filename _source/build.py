@@ -42,6 +42,7 @@ PAGE_KEYS = {
     "per-impressum": ("impressum", "Rechtliches"),
     "per-blog-und-kontakt": ("kontakt", "Blog & Kontakt"),
     "404": ("start", "Fehler 404"),
+    "per-fitness-ernaehrung": ("fitness", "Fitness & Ernährung"),
 }
 
 PROFILE = "/assets/media/profil.jpg"
@@ -62,6 +63,14 @@ EXTRA_SECTIONS = {
     "per-auto-fotografie": [(1, "zeekr.html")],
     "per-entdecke-meine-reiseziele": [(1, "reiseapp.html")],
 }
+
+# Eigene Seiten ohne Gamma-Vorlage: Ordner -> (HTML in _source/extra, Seitentitel, Beschreibung)
+CUSTOM_PAGES = {
+    "per-fitness-ernaehrung": ("fitness.html", "PER - Fitness & Ernährung",
+                               "Kraftsport, Muskelaufbau, Körperfett und Ernährung – und meine Web-Apps SuPER Health."),
+}
+# Zusätzliche Menüpunkte: (nach Menüpunkt, Text, Link)
+EXTRA_NAV = [("Über Mich", "Fitness & Ernährung", "/per-fitness-ernaehrung/")]
 
 # Zusätzliche Inhalte am Kartenanfang: Karten-ID -> HTML
 CARD_PREPEND = {
@@ -384,6 +393,10 @@ def render_nav(current):
             active = ' aria-current="page"' if href == current else ""
             if grp["type"] == "navbarLinks":
                 links.append(f'<a class="nav-link" href="{esc(href)}"{active}>{esc(text)}</a>')
+                for after, ntext, nhref in EXTRA_NAV:
+                    if after == text:
+                        nact = ' aria-current="page"' if nhref == current else ""
+                        links.append(f'<a class="nav-link" href="{esc(nhref)}"{nact}>{esc(ntext)}</a>')
             else:
                 buttons.append(f'<a class="nav-btn" href="{esc(href)}"{active}>{esc(text)}</a>')
     # Gamma zeigt die Buttons in umgekehrter Reihenfolge (Kontakt vor Impressum)
@@ -455,6 +468,12 @@ def main():
         if doc_id == "q1vxh31oxywk87c":
             meta["title"] = "PER"
         out.append((slug, page_html(doc_id, slug, data, meta)))
+    index_doc = json.load(open(os.path.join(SRC, "gamma-json", "index.json"), encoding="utf8"))
+    for slug, (fname, title, desc) in CUSTOM_PAGES.items():
+        EXTRA_SECTIONS.setdefault(slug, []).insert(0, (0, fname))
+        doc = {"type": "doc", "content": [{"type": "document", "attrs": {
+            "background": index_doc["content"][0]["attrs"]["background"], "format": "webpage"}, "content": []}]}
+        out.append((slug, page_html(slug, slug, doc, {"title": title, "description": desc})))
     for slug, h in out:
         d = os.path.join(ROOT, slug) if slug else ROOT
         os.makedirs(d, exist_ok=True)
