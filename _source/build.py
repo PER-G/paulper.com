@@ -287,6 +287,10 @@ def smart_layout(n):
     for i, c in enumerate(cells, 1):
         ca = c.get("attrs") or {}
         im = ca.get("image") or {}
+        # Kachel mit eigenem Foto erst zeigen, wenn die Datei vorhanden ist
+        if (im.get("src") or "").startswith("/") and not os.path.exists(os.path.join(ROOT, im["src"].lstrip("/"))):
+            print("  Hinweis: Foto fehlt, Kachel ausgeblendet:", im["src"])
+            continue
         lead = ""
         if v == "imagesText" and im.get("src"):
             lead = f'<div class="cell-img"><img src="{img(im["src"], 1200)}" alt="" loading="lazy" data-lightbox></div>'

@@ -75,7 +75,6 @@
       show('<div class="fx-veil"></div><div class="fx-ring"></div><div class="fx-ring b"></div>', '#86868B');
     }
   };
-  window.__perFX = FX; // zum Testen in der Konsole
   // Wie lange der Effekt läuft, bevor die neue Seite geladen wird
   var WAIT = { start: 420, foto: 520, reise: 620, auto: 480, ueber: 760, games: 440, kontakt: 520, impressum: 380 };
 
