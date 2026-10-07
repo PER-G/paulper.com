@@ -156,6 +156,37 @@
          ]
         },
         {
+         "type": "buttonGroup",
+         "content": [
+          {
+           "type": "button",
+           "attrs": {
+            "href": "https://per-g.github.io/Reiseplaner/index.html",
+            "variant": "solid"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Zu meiner Reiseführer-App ↗"
+            }
+           ]
+          },
+          {
+           "type": "button",
+           "attrs": {
+            "href": "#reisefuehrer-app",
+            "variant": "outline"
+           },
+           "content": [
+            {
+             "type": "text",
+             "text": "Mehr über die App"
+            }
+           ]
+          }
+         ]
+        },
+        {
          "type": "smartLayout",
          "attrs": {
           "variantKey": "imagesText",

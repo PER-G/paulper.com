@@ -60,6 +60,7 @@ ACCENT_OVERRIDES = {
 # Eigene Artikel (HTML in _source/extra), eingefügt nach der n-ten Karte einer Seite
 EXTRA_SECTIONS = {
     "per-auto-fotografie": [(1, "zeekr.html")],
+    "per-entdecke-meine-reiseziele": [(1, "reiseapp.html")],
 }
 
 # Zusätzliche Inhalte am Kartenanfang: Karten-ID -> HTML

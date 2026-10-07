@@ -462,3 +462,14 @@ body.arriving main { animation: arrive .9s var(--ease) both; }
 .pillar p { font-size: 14.5px; color: var(--grey); margin: 0; }
 .article .accent img { object-position: 60% 50%; }
 p.note { font-size: 13px !important; color: var(--dim) !important; margin-top: 1.4em; }
+.cities { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 1.6em 0; }
+.city {
+  display: flex; flex-direction: column; gap: 2px; padding: 16px 18px; border-radius: 18px; text-decoration: none;
+  background: linear-gradient(160deg, rgba(217, 176, 106, .16), rgba(255, 255, 255, .03)); border: 1px solid rgba(217, 176, 106, .28);
+  transition: transform .4s var(--ease), border-color .4s;
+}
+.city:hover { transform: translateY(-5px); border-color: rgba(217, 176, 106, .7); }
+.city span { font-size: 26px; text-shadow: none; }
+.city b { color: var(--heading); font-size: 19px; font-weight: 600; letter-spacing: -.02em; margin-top: 6px; }
+.city i { font-style: normal; color: var(--grey); font-size: 13px; }
+.btn i { font-size: .8em; }
