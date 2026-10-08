@@ -486,3 +486,4 @@ p.note { font-size: 13px !important; color: var(--dim) !important; margin-top: 1
 .app li { margin: 4px 0; }
 .app li::marker { color: var(--acc); }
 .app-link { font-family: var(--mono); font-size: 12px; color: var(--acc); }
+.app-icon.orange { color: #FF9F5A; background: rgba(255, 159, 90, .14); border-color: rgba(255, 159, 90, .35); }
