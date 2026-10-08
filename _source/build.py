@@ -482,6 +482,12 @@ def render_nav(current):
             f'<div class="nav-buttons">{"".join(buttons)}</div></nav></div></header>')
 
 
+def asset_version(name):
+    """Kurzer Hash des Dateiinhalts – neue Version = neue Adresse, kein veralteter Browser-Cache."""
+    with open(os.path.join(ROOT, "assets", name), "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:10]
+
+
 def page_html(doc_id, slug, data, meta):
     doc = data["content"][0]
     da = doc["attrs"]
@@ -517,7 +523,7 @@ def page_html(doc_id, slug, data, meta):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css?v={asset_version('style.css')}">
 </head>
 <body class="format-{fmt}" data-page="{key}" style="--page-bg:url('{img(bg, 2400)}')">
 <div class="page-bg" aria-hidden="true"></div>
@@ -526,7 +532,7 @@ def page_html(doc_id, slug, data, meta):
 {cards}
 </main>
 <div class="lightbox" hidden><button class="lb-close" aria-label="Schließen">&times;</button><button class="lb-prev" aria-label="Zurück">&#8249;</button><img alt=""><button class="lb-next" aria-label="Weiter">&#8250;</button></div>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v={asset_version('site.js')}" defer></script>
 </body>
 </html>
 """
