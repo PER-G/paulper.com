@@ -15,6 +15,7 @@
   // Aufklappmenüs: nicht über den Fensterrand hinausragen lassen
   document.querySelectorAll('.has-menu').forEach(function (item) {
     item.addEventListener('mouseenter', function () {
+      if (innerWidth <= 900) return; // auf dem Handy liegen die Apps fest unter dem Reiter
       var fly = item.querySelector('.flyout');
       fly.style.setProperty('--shift', '0px');
       var r = fly.getBoundingClientRect(), pad = 12, shift = 0;
