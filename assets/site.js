@@ -12,6 +12,18 @@
     toggle.setAttribute('aria-expanded', open);
   });
 
+  // Aufklappmenüs: nicht über den Fensterrand hinausragen lassen
+  document.querySelectorAll('.has-menu').forEach(function (item) {
+    item.addEventListener('mouseenter', function () {
+      var fly = item.querySelector('.flyout');
+      fly.style.setProperty('--shift', '0px');
+      var r = fly.getBoundingClientRect(), pad = 12, shift = 0;
+      if (r.right > innerWidth - pad) shift = innerWidth - pad - r.right;
+      if (r.left + shift < pad) shift = pad - r.left;
+      fly.style.setProperty('--shift', shift + 'px');
+    });
+  });
+
   // ---------------------------------------------------------- Seitenwechsel-Effekte
   var fx = document.createElement('div');
   fx.id = 'fx';

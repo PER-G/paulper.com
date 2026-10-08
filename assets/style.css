@@ -487,3 +487,62 @@ p.note { font-size: 13px !important; color: var(--dim) !important; margin-top: 1
 .app li::marker { color: var(--acc); }
 .app-link { font-family: var(--mono); font-size: 12px; color: var(--acc); }
 .app-icon.orange { color: #FF9F5A; background: rgba(255, 159, 90, .14); border-color: rgba(255, 159, 90, .35); }
+
+/* ------------------------------------------------ Aufklappmenüs in der Navigation */
+.nav-item { position: relative; display: flex; }
+.has-menu > .nav-link::after {
+  content: ""; display: inline-block; width: 5px; height: 5px; margin: 0 0 2px 6px; vertical-align: middle;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); opacity: .6;
+  transition: transform .3s var(--ease);
+}
+.flyout {
+  position: absolute; top: 100%; left: 50%; padding-top: 12px; z-index: 90;
+  opacity: 0; visibility: hidden; transform: translate(-50%, -6px);
+  transition: opacity .25s var(--ease), transform .35s var(--ease), visibility 0s linear .25s;
+}
+.has-menu:hover > .flyout, .has-menu:focus-within > .flyout, .has-menu.open > .flyout {
+  opacity: 1; visibility: visible; transform: translate(-50%, 0); transition-delay: .08s, .08s, 0s;
+}
+.has-menu:hover > .nav-link::after, .has-menu.open > .nav-link::after { transform: rotate(225deg); margin-bottom: -1px; }
+.fly-inner {
+  min-width: 300px; padding: 16px; border-radius: 20px;
+  background: rgba(18, 18, 22, .9); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, .12); box-shadow: 0 30px 70px -20px rgba(0, 0, 0, .9);
+}
+.fly-label { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--grey); margin: 2px 6px 10px; }
+.fly-apps { display: grid; gap: 4px; }
+.fly-app { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 12px; text-decoration: none; transition: background .2s; }
+.fly-app:hover { background: rgba(255, 255, 255, .08); }
+.fly-app > i { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; flex: none; color: var(--acc); background: rgba(41, 151, 255, .14); font-size: 15px; }
+.fly-app b { display: block; color: var(--heading); font-size: 14px; font-weight: 600; letter-spacing: -.01em; white-space: nowrap; }
+.fly-app small { display: block; color: var(--grey); font-size: 12px; white-space: nowrap; }
+.fly-games { display: grid; grid-template-columns: repeat(3, 150px); gap: 10px; }
+.fly-games:has(> :nth-child(5):last-child) { grid-template-columns: repeat(5, 130px); }
+.fly-game { text-decoration: none; border-radius: 12px; overflow: hidden; background: rgba(255, 255, 255, .04); border: 1px solid var(--line); transition: transform .3s var(--ease), border-color .3s; }
+.fly-game:hover { transform: translateY(-3px); border-color: rgba(41, 151, 255, .6); }
+.fly-game img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+.fly-game span { display: block; padding: 7px 9px; font-size: 12.5px; color: var(--heading); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fly-page { display: block; margin: 10px 6px 2px; font-size: 13px; color: var(--acc); text-decoration: none; }
+.fly-page:hover { text-decoration: underline; }
+
+/* Startseiten-Menü: App-Direktlinks neben den Seiten */
+.btn.btn-sub { font-size: 13px; padding: 5px 12px; border-color: rgba(41, 151, 255, .35); }
+.btn.btn-sub::after { content: "↗"; font-size: .95em; }
+
+@media (max-width: 900px) {
+  .nav-item { flex-direction: column; align-items: stretch; }
+  .has-menu > .nav-link::after { display: none; }
+  .flyout { position: static; opacity: 1; visibility: visible; transform: none; padding: 0 0 10px; transition: none; }
+  .fly-inner { min-width: 0; padding: 0; background: none; border: 0; box-shadow: none; backdrop-filter: none; }
+  .fly-label, .fly-page { display: none; }
+  .fly-apps, .fly-games { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 8px; }
+  .fly-app, .fly-game { padding: 6px 12px; border-radius: 100px; background: rgba(41, 151, 255, .12); border: 0; }
+  .fly-app > i { width: auto; height: auto; background: none; font-size: 12px; }
+  .fly-app small, .fly-game img { display: none; }
+  .fly-app b, .fly-game span { font-size: 13px; font-weight: 500; padding: 0; }
+}
+.flyout { margin-left: var(--shift, 0px); }
+@media (max-width: 900px) {
+  .nav-menu { max-height: calc(100vh - 52px); overflow-y: auto; }
+  .flyout { margin-left: 0; }
+}

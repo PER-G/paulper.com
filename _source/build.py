@@ -254,8 +254,9 @@ def button(n):
     href = map_href(a.get("href"))
     variant = a.get("variant") or "solid"
     color = a.get("color") or THEME["theme"]["accentColor"]
-    ext = ' target="_blank" rel="noopener"' if is_external(href) else ""
-    return f'<a class="btn btn-{variant}" style="--btn:{color}" href="{esc(href)}"{ext}>{inline(n)}</a>'
+    ext = ' target="_blank" rel="noopener"' if is_external(href) or href.startswith("/traumauto") else ""
+    extra = f' btn-{a["class"]}' if a.get("class") else ""
+    return f'<a class="btn btn-{variant}{extra}" style="--btn:{color}" href="{esc(href)}"{ext}>{inline(n)}</a>'
 
 
 def gallery(n):
@@ -382,9 +383,83 @@ def render_card(card):
             f'{accent_html if layout == "right" else ""}</div></section>')
 
 
+# Schnellzugriff auf die Apps in den Reitern (und im Startseiten-Menü)
+APPS = {
+    "reise": ("compass", "Reiseführer-App", "Rom, Berlin, Paris, China, Kraków, Budapest",
+              "https://per-g.github.io/Reiseplaner/index.html"),
+    "traumauto": ("car-side", "Traumauto-App", "284 Fahrzeuge im persönlichen Ranking", "/traumauto/"),
+    "superhealth": ("calculator", "SuPER Health", "Rechner, Ziele und Wissen", "https://su-per-health.vercel.app/"),
+    "tracking": ("chart-line", "SuPER Health Tracking", "Kalorien, Makros, Barcode und KI-Foto",
+                 "https://su-per-health.vercel.app/tracking"),
+    "kueche": ("utensils", "SuPER Küche", "Familien-Wochenplaner und Einkauf",
+               "https://su-per-health.vercel.app/wochenplaner/"),
+}
+NAV_MENUS = {
+    "Reiseziele & Fotografie": ["reise"],
+    "Auto & Technik": ["traumauto"],
+    "Fitness & Ernährung": ["superhealth", "tracking", "kueche"],
+    "Games": "games",
+}
+
+
+def game_list():
+    """Spiele aus der Games-Seite (Titel, Link, Vorschaubild)."""
+    data = json.load(open(os.path.join(SRC, "gamma-json", "per-games.json"), encoding="utf8"))
+    out = []
+
+    def walk(n):
+        if n.get("type") == "embed":
+            a = n["attrs"]
+            title = re.sub(r"^[^\w]+", "", (a.get("meta") or {}).get("title") or a["url"]).strip()
+            title = {"ALIEN CLONES": "Alien Clones", "Stickman Elite Sniper: Rooftop Rescue": "Stickman Sniper",
+                     "HAWO Validation Simulator 3000": "HAWO Validation Simulator",
+                     "Hühnerjagd - Wellenmodus": "Hühnerjagd"}.get(title, title)
+            if "HTML-Studio" not in a["url"]:  # Werkzeug, kein Spiel
+                out.append((title, a["url"], (a.get("thumbnail") or {}).get("src")))
+        for c in n.get("content") or []:
+            walk(c)
+    walk(data)
+    return out
+
+
+def app_target(href):
+    return ' target="_blank" rel="noopener"' if href.startswith("http") or href.startswith("/traumauto") else ""
+
+
+def nav_flyout(text, page_href):
+    menu = NAV_MENUS.get(text)
+    if not menu:
+        return ""
+    if menu == "games":
+        items = "".join(
+            f'<a class="fly-game" href="{esc(u)}" target="_blank" rel="noopener">'
+            f'<img src="{img(t, 600) if t else ""}" alt="" loading="lazy"><span>{esc(n)}</span></a>'
+            for n, u, t in game_list())
+        body = f'<div class="fly-games">{items}</div>'
+        label = "Spiele direkt starten"
+    else:
+        items = "".join(
+            f'<a class="fly-app" href="{esc(APPS[k][3])}"{app_target(APPS[k][3])}>'
+            f'<i class="fa-solid fa-{APPS[k][0]}"></i><span><b>{esc(APPS[k][1])}</b><small>{esc(APPS[k][2])}</small></span></a>'
+            for k in menu)
+        body = f'<div class="fly-apps">{items}</div>'
+        label = "Apps direkt öffnen"
+    return (f'<div class="flyout"><div class="fly-inner"><div class="fly-label">{label}</div>{body}'
+            f'<a class="fly-page" href="{esc(page_href)}">Zur Seite {esc(text)} ›</a></div></div>')
+
+
 def render_nav(current):
     nb = THEME["nav"]["content"][0]
     links, buttons = [], []
+
+    def nav_link(text, href):
+        active = ' aria-current="page"' if href == current else ""
+        fly = nav_flyout(text, href)
+        link = f'<a class="nav-link" href="{esc(href)}"{active}>{esc(text)}</a>'
+        if not fly:
+            return link
+        return f'<div class="nav-item has-menu">{link}{fly}</div>'
+
     for grp in nb.get("content") or []:
         for b in grp.get("content") or []:
             href = map_href(b["attrs"].get("href"))
@@ -392,11 +467,10 @@ def render_nav(current):
             text = RENAME.get(text, text)
             active = ' aria-current="page"' if href == current else ""
             if grp["type"] == "navbarLinks":
-                links.append(f'<a class="nav-link" href="{esc(href)}"{active}>{esc(text)}</a>')
+                links.append(nav_link(text, href))
                 for after, ntext, nhref in EXTRA_NAV:
                     if after == text:
-                        nact = ' aria-current="page"' if nhref == current else ""
-                        links.append(f'<a class="nav-link" href="{esc(nhref)}"{nact}>{esc(ntext)}</a>')
+                        links.append(nav_link(ntext, nhref))
             else:
                 buttons.append(f'<a class="nav-btn" href="{esc(href)}"{active}>{esc(text)}</a>')
     # Gamma zeigt die Buttons in umgekehrter Reihenfolge (Kontakt vor Impressum)

@@ -218,6 +218,21 @@
                    "text": "PER - Entdecke meine Reiseziele"
                   }
                  ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Reiseplaner/index.html",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Reiseführer-App"
+                  }
+                 ]
                 }
                ]
               }
@@ -274,6 +289,21 @@
                    "text": "Auto Fotografie"
                   }
                  ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "/traumauto/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Traumauto-App"
+                  }
+                 ]
                 }
                ]
               }
@@ -328,6 +358,51 @@
                   {
                    "type": "text",
                    "text": "Fitness & Ernährung"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://su-per-health.vercel.app/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "SuPER Health"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://su-per-health.vercel.app/tracking",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Tracking"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://su-per-health.vercel.app/wochenplaner/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "SuPER Küche"
                   }
                  ]
                 }
@@ -415,6 +490,81 @@
                   {
                    "type": "text",
                    "text": "Games"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Alien-Clones/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Alien Clones"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Jungle-Clash/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Jungle Clash"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Moorhuhn-Jagd/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Hühnerjagd"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Stickman-Sniper/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "Stickman Sniper"
+                  }
+                 ]
+                },
+                {
+                 "type": "button",
+                 "attrs": {
+                  "href": "https://per-g.github.io/Hawo-Validation-Simulator/",
+                  "variant": "outline",
+                  "color": "#29DDDA",
+                  "class": "sub"
+                 },
+                 "content": [
+                  {
+                   "type": "text",
+                   "text": "HAWO Validation Simulator"
                   }
                  ]
                 }
