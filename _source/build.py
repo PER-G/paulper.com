@@ -387,7 +387,7 @@ def render_card(card):
 APPS = {
     "reise": ("compass", "Reiseführer-App", "Rom, Berlin, Paris, China, Kraków, Budapest",
               "https://per-g.github.io/Reiseplaner/index.html"),
-    "traumauto": ("car-side", "Traumauto-App", "312 Fahrzeuge · Ranking & Direktvergleich", "/traumauto/"),
+    "traumauto": ("car-side", "Traumauto-App", "318 Fahrzeuge · Ranking & Direktvergleich", "/traumauto/"),
     "superhealth": ("calculator", "SuPER Health", "Rechner, Ziele und Wissen", "https://su-per-health.vercel.app/"),
     "tracking": ("chart-line", "SuPER Health Tracking", "Kalorien, Makros, Barcode und KI-Foto",
                  "https://su-per-health.vercel.app/tracking"),
